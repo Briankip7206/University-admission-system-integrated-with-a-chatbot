@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form method="post" action="{{ url_for('admin_add_school') }}">
+    {{ form.csrf_token }}
+    <label for="school_name">School Name:</label>
+    {{ form.school_name(class="form-control") }}
+    <button type="submit">Add School</button>
+</form>
+
+{% endblock %}

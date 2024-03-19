@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+<title>{% block title %}Apply | Meru University{% endblock  %}</title>
+
+{% block content %}
+<div style="width:80%; margin:auto;">
+    <h1>Login</h1>
+    <form action="/admin/new/user" method="POST">
+        
+        <input type="email" name="user_name" placeholder="User name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="text" name="password" placeholder="pasword" required>
+        <button type="submit">Login</button>
+    </form>
+</div>
+
+{% endblock  %}

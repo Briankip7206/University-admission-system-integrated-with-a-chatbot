@@ -1,0 +1,76 @@
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            width: 50%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        select, button {
+            padding: 10px;
+            margin-bottom: 16px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    {% extends "base.html" %}
+
+    {% block content %}
+    
+    
+    
+        <form method="post" action="">
+            {% if error_message %}
+                <p class="error">{{ error_message }}</p>
+            {% endif %}
+        <h1>Assign Schools and Courses</h1>
+
+            {{ form.hidden_tag() }}
+    
+            <label for="{{ form.assigned_school.id }}">Assigned School:</label>
+            <select name="{{ form.assigned_school.name }}">
+                {% for school in form.assigned_school.choices %}
+                    <option value="{{ school[1] }}">{{ school[1] }}</option>
+                {% endfor %}
+            </select>
+    
+            <label for="{{ form.assigned_course.id }}">Assigned Course:</label>
+            <select name="{{ form.assigned_course.name }}">
+                {% for course in form.assigned_course.choices %}
+                    <option value="{{ course[1] }}">{{ course[1] }}</option>
+                {% endfor %}
+            </select>
+    
+            <button type="submit">Assign</button>
+        </form>
+    {% endblock %}

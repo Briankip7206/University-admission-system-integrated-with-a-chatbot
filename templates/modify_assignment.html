@@ -1,0 +1,20 @@
+<!-- modify_assignment.html -->
+
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Modify Assignment</h2>
+  <form method="POST" action="">
+    {{ form.hidden_tag() }}
+    <div class="form-group">
+      <label for="assigned_school">Assigned School</label>
+      {{ form.assigned_school(class="form-control", placeholder="Assigned School") }}
+    </div>
+    <div class="form-group">
+      <label for="assigned_course">Assigned Course</label>
+      {{ form.assigned_course(class="form-control", placeholder="Assigned Course") }}
+    </div>
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a href="{{ url_for('admin_view_students') }}" class="btn btn-secondary">Cancel</a>
+  </form>
+{% endblock %}

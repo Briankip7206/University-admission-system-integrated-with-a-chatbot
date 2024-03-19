@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+   
+    <form method="post" action="">
+        {% if error_message %}
+        <p class="error">{{ error_message }}</p>
+    {% endif %}
+        <h1>Add Student</h1>
+        {{ form.hidden_tag() }}
+        <label for="{{ form.username.id }}">Username:</label>
+        {{ form.username }}
+        <label for="{{ form.password.id }}">Password:</label>
+        {{ form.password }}
+        <button type="submit">Add Student</button>
+    </form>
+{% endblock %}

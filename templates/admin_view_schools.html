@@ -1,0 +1,32 @@
+
+
+{% extends "base.html" %}
+
+{% block content %}
+<header>
+    <h1>View All Schools</h1>
+</header>
+<table>
+    <thead>
+        <tr>
+            <th>School Name</th>
+            <th>Number of Courses</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for school in schools %}
+            <tr>
+                <td>{{ school.name }}</td>
+                <td>{{ school.courses|length }}</td>
+                <td>
+                    <a href="{{ url_for('admin_add_course', school_id=school.id) }}">
+                        <button>Add Course</button>
+                    </a>
+                    
+                </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock  %}
+

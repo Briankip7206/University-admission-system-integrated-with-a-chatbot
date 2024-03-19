@@ -1,0 +1,18 @@
+
+
+{% extends "base.html" %}
+
+{% block content %}
+
+<form method="post" action="{{ url_for('admin_add_course', school_id=school.id) }}">
+    {% if error_message %}
+    <p class="error">{{ error_message }}</p>
+{% endif %}
+    {{ form.csrf_token }}
+    <h1>Add Course to <br> <i>{{ school.name }}</i></h1>
+    <label for="course_name">Course Name:</label>
+    {{ form.course_name(class="form-control") }}
+    <button type="submit">Add Course</button>
+</form>
+
+{% endblock %}

@@ -1,0 +1,45 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Admin View Students</h1>
+
+    <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>School</th>
+            <th>Course</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+        
+          {% for student in students if student.username != 'admin' %}
+            <tr>
+              <td>{{ student.username }}</td>
+              {% if student.school_course %}
+               
+                {% for assignment in student.school_course %}
+                  <td>{{ assignment.school }}</td>
+                  <td>{{ assignment.course }}</td>
+                {% endfor %}
+                <td>
+                  
+                </td>
+              {% else %}
+                
+                <td colspan="3">
+                    <a href="{{ url_for('admin_assign', user_id=student.id) }}">
+                        <button>Assign Course</button>
+                    </a>
+                </td>
+              {% endif %}
+            </tr>
+          {% endfor %}
+        </tbody>
+    </table>
+
+   
+{% endblock  %}
+
