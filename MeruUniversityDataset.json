@@ -1,0 +1,1790 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hae",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Hi",
+        "Hello",
+        "Hey",
+        "Greetings",
+        "Hi there",
+        "Hae there"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hello! How can I assist you?",
+        "Hi! What can I do for you today?",
+        "Hey! How may I help you?",
+        "What's up! Anything I can help you with?",
+        "How's it going! Let me know if you have any questions."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", 
+        "See you later",
+         "Goodbye",
+         "exit",
+         "quit",
+         "done",
+         "close",
+         "shutdown",
+         "restart"
+        ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag" : "name",
+      "patterns":[
+        "What is your name?",
+        "Name",
+        "Can you tell me your name",
+        "Your name please",
+        "I would like to know your name"
+      ],
+      "responses":[
+        "My name is Meru University Chatbot",
+        "Meru university Chatbot"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Location?",
+        "Where is the university Located?",
+        "Location of Meru university",
+        "Location of University",
+        "Where is Meru University located?",
+        "Tell me about the location of Meru University.",
+        "What is the address of Meru University?",
+        "Where is Meru University of Science and Technology?",
+        "What is the physical address of Meru University?",
+        "Provide information about the location of the university.",
+        "Where exactly is Meru University located?",
+        "Can you tell me where Meru University is on the map?",
+        "Give the geographic location of Meru University.",
+        "Share details about Meru University's whereabouts.",
+        "Where can I locate Meru University in Meru County?",
+        "Explain the geographical position of Meru University.",
+        "What's the precise address of Meru University?",
+        "Can you give me directions to Meru University?",
+        "Tell me the exact spot of Meru University.",
+        "Where is the campus of Meru University located?",
+        "What is the specific location of Meru University?",
+        "Guide me to Meru University's location.",
+        "Provide the position of Meru University on the map.",
+        "Location?",
+        "Can you provide the physical coordinates of Meru University?",
+        "Describe the location of Meru University in Kenya.",
+        "Direction?",
+        "Where exactly in Tigania West is Meru University situated?",
+        "Direction to Meru University.",
+        "What's the physical setup of Meru University?",
+        "Can you guide me to Meru University's campus?"
+      ],
+      "responses": [
+        "Meru University is located in Tigania West Constituency, Meru, Kenya <a style='color:blue !important'  target='blank' href='https://www.google.com/maps/dir//Meru+University+of+Science+and+Technology,+Meru/@0.0907737,37.6441964,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x17883c967d5c1517:0x94e1dbf4dfea47bd!2m2!1d37.7083752!2d0.1348854?entry=ttu'>Google Map</a>..",
+        "The university is situated 15 kilometers northeast of Meru Town <a style='color:blue !important'  target='blank' href='https://www.google.com/maps/dir//Meru+University+of+Science+and+Technology,+Meru/@0.0907737,37.6441964,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x17883c967d5c1517:0x94e1dbf4dfea47bd!2m2!1d37.7083752!2d0.1348854?entry=ttu'>Google Map</a>..",
+        "It is along the Meru-Makutano-Maua Highway <a style='color:blue !important'  target='blank' href='https://www.google.com/maps/dir//Meru+University+of+Science+and+Technology,+Meru/@0.0907737,37.6441964,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x17883c967d5c1517:0x94e1dbf4dfea47bd!2m2!1d37.7083752!2d0.1348854?entry=ttu'>Google Map</a>..",
+        "For detailed directions, you can use <a style='color:blue !important'  target='blank' href='https://www.google.com/maps/dir//Meru+University+of+Science+and+Technology,+Meru/@0.0907737,37.6441964,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x17883c967d5c1517:0x94e1dbf4dfea47bd!2m2!1d37.7083752!2d0.1348854?entry=ttu'>Google Map</a>.",
+        "The exact location of Meru University is provided on <a style='color:blue !important'  target='blank' href='https://www.google.com/maps/dir//Meru+University+of+Science+and+Technology,+Meru/@0.0907737,37.6441964,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x17883c967d5c1517:0x94e1dbf4dfea47bd!2m2!1d37.7083752!2d0.1348854?entry=ttu'>Google Map</a>.",
+        "To find Meru University, use <a style='color:blue !important'  target='blank' href='https://www.google.com/maps/dir//Meru+University+of+Science+and+Technology,+Meru/@0.0907737,37.6441964,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x17883c967d5c1517:0x94e1dbf4dfea47bd!2m2!1d37.7083752!2d0.1348854?entry=ttu'>Google Map</a>.",
+        "You can easily locate Meru University using <a style='color:blue !important'  target='blank' href='https://www.google.com/maps/dir//Meru+University+of+Science+and+Technology,+Meru/@0.0907737,37.6441964,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x17883c967d5c1517:0x94e1dbf4dfea47bd!2m2!1d37.7083752!2d0.1348854?entry=ttu'>Google Map</a>."
+      ]
+    },    
+    {
+      "tag": "OK",
+      "patterns":[
+        "yes",
+        "yeah",
+        "okay"
+      ],
+      "responses":[
+        "Cool",
+        "okay", 
+        "Ok"
+      ]
+    },
+    {
+      "tag": "university_chancellor",
+      "patterns": [
+        "Who is the university chancellor?",
+        "University chancellor?",
+        "Chancellor?",
+        "Vice chancellor?",
+        "Who is in charge of the university?",
+        "Who is the head of the university?"
+      ],
+      "responses": [
+        "The university chancellor is none other than Dr. Peter Ndegwa. The vice chancellor is Prof. Romanus Odhiambo"
+      ]
+    },
+    {
+      "tag": "student_council",
+      "patterns": [
+        "Who is the student council leader?",
+        "Student council?",
+        "Student leader?",
+        "President?",
+        "Who is the school president?"
+      ],
+      "responses": [
+        "The student council leader is Gen Mark; He serves as head of Student Association of Meru University(SAMU),the student body and advocates for student interests."
+      ]
+    },
+    {
+      "tag": "hostel_information",
+      "patterns": [
+        "Can you provide information about the university hostels?",
+        "Hostel accomodation?",
+        "Accomodation?",
+        "Hostel?",
+        "Do you provide accomodation for new students?"
+      ],
+      "responses": [
+        "The university has student hostels which accomodate students on First come, First served basis."
+      ]
+    },
+    {
+      "tag": "minimum_fee_requirements",
+      "patterns": [
+        "What are the minimum fee requirements for the university?",
+        "What is the minimum fee requirements?",
+        "Minimum fee requirements?",
+        "Fee requirements?",
+        "Min fee requirements?",
+        "Information about minimum fee requirements?"
+      ],
+      "responses": [
+        "The minimum fee requirements vary depending on the academic program and hostel accomodation.However, students placed under the Government scholarship are required to pay a minimum of 7% of the fee indicated on their respective admission letters on/before admission day"
+      ]
+    },
+    {
+        "tag": "academic_programs",
+        "patterns": [
+          "What academic programs does the university offer?",
+          "Academic programs?",
+          "Programs?",
+          "List of Programmes offered?",
+          "Which academic programs do you offer?"
+        ],
+        "responses": [
+          "Meru University offers a wide range of Academic programs. You can find more information on our website https://admission.must.ac.ke/programmes."
+        ]
+      },
+      {
+        "tag": "contacts",
+        "patterns": [
+          "How can I contact the university?",
+          "What is the phone number for the university?",
+          "Email for the university?",
+          "Contacts for the university?",
+          "Email?",
+          "Contacts?",
+          "Is there an email address I can reach out to?"
+        ],
+        "responses": [
+          "You can contact Meru university at P.O BOX 972-60200, Meru:\n Phone:+254799529958 +254799529959 +254712524293:\n Email: info@must.ac.ke,registraraa@must.ac.ke,admissions@must.ac.ke.\n Alternatively, you can visit the university's website for more contact information."
+        ]
+      },
+    {
+      "tag":"friends",
+      "patterns":[
+        "Can we be friends?",
+        "We be friends?",
+        "Do you have friends?",
+        "I want to be your friend"
+      ],
+      "responses" :[
+        "As an AI I cant have any sort of relation with humans! Sorry!!"
+      ]
+
+    },
+    {
+      "tag" : "help",
+      "patterns":[
+        "i need help",
+        "help",
+        "can you help me?",
+        "help me",
+        "Assist",
+        "i want your help",
+        "your help",
+        "want your help",
+        "want you to help me",
+        "help me please"
+      ],
+      "responses":[
+        "Sure ! How can i help you",
+        "Im here to help you",
+        "At your service!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Glad", 
+        "Thank you", 
+        "That's helpful", 
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!", 
+        "Welcome",
+        "Any time!", 
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "good_morning",
+      "patterns": [
+        "Good morning", 
+        "Morning", 
+        "Good day"
+      ],
+      "responses": [
+        "Good morning! How can I help?", 
+        "Morning! How may I assist you Today?", 
+        "Have a great morning! How may I assist you?"
+      ]
+    },
+    {
+      "tag": "good_afternoon",
+      "patterns": [
+        "Good afternoon", 
+        "Afternoon"
+      ],
+      "responses": [
+        "Good afternoon! How can I assist you?",
+        "Afternoon! What can I do for you today?",
+        "Hope you're having a good afternoon! How may I help you?"
+      ]
+    },
+    {
+      "tag": "good_evening",
+      "patterns": [
+        "Good evening", 
+        "Evening"
+      ],
+      "responses": [
+        "Good evening! How can I help you?", 
+        "Evening! What can I assist you with?", 
+        "Hope you're having a pleasant evening! How may I assist you?"
+      ]
+    },
+    {
+      "tag": "good_night",
+      "patterns": [
+        "Good night", 
+        "Night"
+      ],
+      "responses": [
+        "Good night! Sleep well.", 
+        "Night! If you have any questions, feel free to ask.", 
+        "Sweet dreams! How may I assist you tomorrow?"
+      ]
+    },
+    {
+      "tag": "university_history",
+      "patterns": [
+        "Tell me about the history of Meru University.",
+        "When was Meru University established?",
+        "Give me a brief overview of Meru University's history.",
+        "What led to the establishment of Meru University?",
+        "How did Meru University evolve over the years?",
+        "Can you share some historical background about Meru University?"
+      ],
+      "responses": [
+        "The idea of establishing Meru University dates back to the early 1960s when the Njuri Ncheke conceived the concept.",
+        "Meru University traces its roots to the mid-1960s when the elders initiated the process of its establishment after Kenya's Independence.",
+        "Meru College of Technology (MECOTECH) was converted into Meru University College of Science and Technology (MUCST) in 2008.",
+        "In 2013, Meru University of Science and Technology (MUST) received a full-fledged University status through the Award of Charter."
+      ]
+    },
+    {
+      "tag": "university_structure",
+      "patterns": [
+        "How is Meru University structured?",
+        "Tell me about the campuses of Meru University.",
+        "What are the main locations of Meru University?",
+        "Describe the main campus of Meru University.",
+        "Where is Meru University's learning centre located?",
+        "Can you explain the organizational structure of Meru University?"
+      ],
+      "responses": [
+        "Meru University has its Main Campus situated 15km from Meru town along the Meru-Maua road.",
+        "Meru University has opened a campus in Meru Town at the Hart Towers and a learning centre at Marimba.",
+        "The Main Campus of Meru University is located 15km from Meru town along the Meru-Maua road.",
+        "Meru University has expanded its presence with a campus in Meru Town at the Hart Towers and a learning centre at Marimba."
+      ]
+    },
+    {
+      "tag": "iso_certification",
+      "patterns": [
+        "Tell me about Meru University's ISO certification.",
+        "How has Meru University implemented the Quality Management System?",
+        "What is the significance of Meru University being awarded ISO 9001:2015 certification?",
+        "Explain the Quality Management System at Meru University.",
+        "Can you provide details about Meru University's ISO certification?"
+      ],
+      "responses": [
+        "Meru University has successfully implemented the Quality Management System and was the first University in Kenya to be awarded the ISO 9001:2015 certification.",
+        "The ISO 9001:2015 certification signifies Meru University's commitment to providing Quality University education, training, and research in Science, Technology, and Innovation."
+      ]
+    },
+    {
+      "tag": "growth_areas",
+      "patterns": [
+        "In which areas has Meru University experienced growth?",
+        "Tell me about the growth in curriculum development at Meru University.",
+        "How has staff capacity developed at Meru University?",
+        "Explain the growth in student enrolment at Meru University.",
+        "Can you elaborate on Meru University's growth in infrastructure development?"
+      ],
+      "responses": [
+        "Meru University has witnessed tremendous growth in curriculum development, staff capacity development, student enrolment, infrastructure development, as well as research and collaborations.",
+        "Meru University has played a leading role in the development and expansion of opportunities for higher education and research."
+      ]
+    },
+    {
+      "tag": "main_campus_location",
+      "patterns": [
+        "Where is Meru University's Main Campus located?",
+        "Give me directions to Meru University's Main Campus.",
+        "Tell me about the location of Meru University's Main Campus.",
+        "What is the address of Meru University's Main Campus?",
+        "Can you provide details about the geographical location of Meru University's Main Campus?"
+      ],
+      "responses": [
+        "Meru University's Main Campus is situated 15km from Meru town along the Meru-Maua road.",
+        "For directions to Meru University's Main Campus, you can head 15km from Meru town along the Meru-Maua road.",
+        "The location of Meru University's Main Campus is 15km from Meru town along the Meru-Maua road.",
+        "The address of Meru University's Main Campus is 15km from Meru town along the Meru-Maua road."
+      ]
+    },
+    {
+      "tag": "town_campus_location",
+      "patterns": [
+        "Where is Meru University's Town Campus located?",
+        "Give me directions to Meru University's Town Campus.",
+        "Tell me about the location of Meru University's Town Campus.",
+        "What is the address of Meru University's Town Campus?",
+        "Can you provide details about the geographical location of Meru University's Town Campus?"
+      ],
+      "responses": [
+        "Meru University's Town Campus is located in Meru Town at the Hart Towers, opposite Meru Police Station.",
+        "For directions to Meru University's Town Campus, you can head to Meru Town at the Hart Towers, opposite Meru Police Station.",
+        "The location of Meru University's Town Campus is in Meru Town at the Hart Towers, opposite Meru Police Station.",
+        "The address of Meru University's Town Campus is in Meru Town at the Hart Towers, opposite Meru Police Station."
+      ]
+    },
+    {
+      "tag": "learning_centre_location",
+      "patterns": [
+        "Where is Meru University's learning centre located?",
+        "Give me directions to Meru University's learning centre.",
+        "Tell me about the location of Meru University's learning centre.",
+        "What is the address of Meru University's learning centre?",
+        "Can you provide details about the geographical location of Meru University's learning centre?"
+      ],
+      "responses": [
+        "Meru University's learning centre is located at Marimba.",
+        "For directions to Meru University's learning centre, you can head to Marimba.",
+        "The location of Meru University's learning centre is at Marimba.",
+        "The address of Meru University's learning centre is at Marimba."
+      ]
+    },
+    {
+      "tag": "fee_payment",
+      "patterns": [
+        "bank details",
+        "fee payment",
+        "How can I pay my tuition fees?",
+        "Tell me about the fee payment process.",
+        "What are the options for fee payment?",
+        "Give me details on tuition fee payment.",
+        "Explain the steps for paying my fees.",
+        "Can you guide me through the fee payment?",
+        "What's the procedure for tuition fee payment?",
+        "How do I initiate the payment for my fees?",
+        "Tell me more about the tuition fee payment methods.",
+        "What are the accepted forms of payment for fees?",
+        "I need information on how to settle my tuition fees.",
+        "Walk me through the process of fee payment.",
+        "Provide details on the payment of tuition fees.",
+        "Share insights on the tuition fee payment process.",
+        "Enlighten me on the methods available for fee payment.",
+        "Give me specifics on how to pay my tuition fees.",
+        "Explain the available channels for fee payment.",
+        "I'm curious about the payment options for tuition fees.",
+        "What's the recommended way to pay tuition fees?",
+        "Can you clarify the steps for fee payment?",
+        "Tell me about the acceptable forms of payment for fees.",
+        "How can I settle my tuition fees?",
+        "What are the ways I can make payments for my fees?",
+        "Provide guidance on paying tuition fees.",
+        "Clarify the process for settling tuition fees.",
+        "Elaborate on the tuition fee payment methods.",
+        "How should I go about paying my fees?",
+        "Give me details on the acceptable payment methods for fees.",
+        "Tell me about the supported forms of payment for tuition fees.",
+        "What options do I have for tuition fee payment?",
+        "Can you provide information on fee payment?",
+        "I need assistance with paying my tuition fees.",
+        "Walk me through the steps for fee payment.",
+        "How do I proceed with the payment of my tuition fees?",
+        "Tell me about the payment process for tuition fees.",
+        "I want to know more about the tuition fee payment options.",
+        "Provide details on the acceptable forms of payment for tuition fees.",
+        "Explain how I can make payments for my tuition fees.",
+        "Can you guide me on the tuition fee payment procedure?",
+        "Tell me about the various payment methods for tuition fees.",
+        "What are the recommended ways to pay tuition fees?",
+        "Give me insights on settling my tuition fees.",
+        "I'm looking for information on tuition fee payment.",
+        "Can you provide details on fee payment methods?",
+        "How should I handle the payment of my tuition fees?",
+        "Tell me about the accepted payment options for tuition fees.",
+        "Clarify the tuition fee payment process for me.",
+        "What are the steps I need to follow for fee payment?",
+        "Provide information on how to pay my tuition fees.",
+        "I need guidance on the tuition fee payment options."
+      ],
+      "responses": [
+        "To pay your tuition fees, you can use the following bank details:\nBank: Equity Bank - Makutano Branch\nAccount Name: Meru University\nAccount Number: 1040297858661\nReference Number: Your application no e.g APP_####",
+        "For fee payment, use the following bank details:\nBank: Kenya Commercial Bank - Meru Branch\nAccount Name: Meru University\nAccount Number: 1117775917\nReference Number: Your application no e.g APP_####",
+        "To settle your tuition fees, make use of the following bank details:\nBank: National Bank Of Kenya - Meru Branch\nAccount Name: Meru University\nAccount Number: 01242039008700\nReference Number: Your application no e.g APP_####",
+        "To initiate fee payment, use these bank details:\nBank: Co-operative Bank - Makutano Branch\nAccount Name: Meru University\nAccount Number: 01129378440000\nReference Number: Your application no e.g APP_####",
+        "For your convenience, use the following bank details for fee payment:\nBank: Equity Bank - Makutano Branch\nAccount Name: Meru University\nAccount Number: 1040297858661\nReference Number: Your application no e.g APP_####",
+        "To facilitate fee payment, utilize the following bank details:\nBank: Kenya Commercial Bank - Meru Branch\nAccount Name: Meru University\nAccount Number: 1117775917\nReference Number: Your application no e.g APP_####",
+        "For efficient fee payment, use the following bank details:\nBank: National Bank Of Kenya - Meru Branch\nAccount Name: Meru University\nAccount Number: 01242039008700\nReference Number: Your application no e.g APP_####",
+        "To proceed with fee payment, make use of the following bank details:\nBank: Co-operative Bank - Makutano Branch\nAccount Name: Meru University\nAccount Number: 01129378440000\nReference Number: Your application no e.g APP_####",
+        "For seamless tuition fee payment, utilize the following bank details:\nBank: Equity Bank - Makutano Branch\nAccount Name: Meru University\nAccount Number: 1040297858661\nReference Number: Your application no e.g APP_####",
+        "To ensure a smooth fee payment process, use the following bank details:\nBank: Kenya Commercial Bank - Meru Branch\nAccount Name: Meru University\nAccount Number: 1117775917\nReference Number: Your application no e.g APP_####",
+        "For hassle-free tuition fee payment, use the following bank details:\nBank: National Bank Of Kenya - Meru Branch\nAccount Name: Meru University\nAccount Number: 01242039008700\nReference Number: Your application no e.g APP_####",
+        "To simplify the fee payment process, use the following bank details:\nBank: Co-operative Bank - Makutano Branch\nAccount Name: Meru University\nAccount Number: 01129378440000\nReference Number: Your application no e.g APP_####",
+        "For a convenient tuition fee payment experience, use the following bank details:\nBank: Equity Bank - Makutano Branch\nAccount Name: Meru University\nAccount Number: 1040297858661\nReference Number: Your application no e.g APP_####",
+        "To complete fee payment with ease, use the following bank details:\nBank: Kenya Commercial Bank - Meru Branch\nAccount Name: Meru University\nAccount Number: 1117775917\nReference Number: Your application no e.g APP_####",
+        "To successfully settle tuition fees, use the following bank details:\nBank: National Bank Of Kenya - Meru Branch\nAccount Name: Meru University\nAccount Number: 01242039008700\nReference Number: Your application no e.g APP_####",
+        "To initiate fee payment without complications, use the following bank details:\nBank: Co-operative Bank - Makutano Branch\nAccount Name: Meru University\nAccount Number: 01129378440000\nReference Number: Your application no e.g APP_####",
+        "For secure tuition fee payment, use the following bank details:\nBank: Equity Bank - Makutano Branch\nAccount Name: Meru University\nAccount Number: 1040297858661\nReference Number: Your application no e.g APP_####",
+        "To securely make fee payments, use the following bank details:\nBank: Kenya Commercial Bank - Meru Branch\nAccount Name: Meru University\nAccount Number: 1117775917\nReference Number: Your application no e.g APP_####",
+        "For a secure tuition fee payment process, use the following bank details:\nBank: National Bank Of Kenya - Meru Branch\nAccount Name: Meru University\nAccount Number: 01242039008700\nReference Number: Your application no e.g APP_####",
+        "To ensure security in fee payment, use the following bank details:\nBank: Co-operative Bank - Makutano Branch\nAccount Name: Meru University\nAccount Number: 01129378440000\nReference Number: Your application no e.g APP_####",
+        "For a straightforward tuition fee payment process, use the following bank details:\nBank: Equity Bank - Makutano Branch\nAccount Name: Meru University\nAccount Number: 1040297858661\nReference Number: Your application no e.g APP_####",
+        "To complete fee payment easily, use the following bank details:\nBank: Kenya Commercial Bank - Meru Branch\nAccount Name: Meru University\nAccount Number: 1117775917\nReference Number: Your application no e.g APP_####",
+        "To successfully settle tuition fees, use the following bank details:\nBank: National Bank Of Kenya - Meru Branch\nAccount Name: Meru University\nAccount Number: 01242039008700\nReference Number: Your application no e.g APP_####",
+        "To initiate fee payment without complications, use the following bank details:\nBank: Co-operative Bank - Makutano Branch\nAccount Name: Meru University\nAccount Number: 01129378440000\nReference Number: Your application no e.g APP_####",
+        "For secure tuition fee payment, use the following bank details:\nBank: Equity Bank - Makutano Branch\nAccount Name: Meru University\nAccount Number: 1040297858661\nReference Number: Your application no e.g APP_####",
+        "To securely make fee payments, use the following bank details:\nBank: Kenya Commercial Bank - Meru Branch\nAccount Name: Meru University\nAccount Number: 1117775917\nReference Number: Your application no e.g APP_####",
+        "For a secure tuition fee payment process, use the following bank details:\nBank: National Bank Of Kenya - Meru Branch\nAccount Name: Meru University\nAccount Number: 01242039008700\nReference Number: Your application no e.g APP_####",
+        "To ensure security in fee payment, use the following bank details:\nBank: Co-operative Bank - Makutano Branch\nAccount Name: Meru University\nAccount Number: 01129378440000\nReference Number: Your application no e.g APP_####",
+        "For a straightforward tuition fee payment process, use the following bank details:\nBank: Equity Bank - Makutano Branch\nAccount Name: Meru University\nAccount Number: 1040297858661\nReference Number: Your application no e.g APP_####",
+        "To complete fee payment easily, use the following bank details:\nBank: Kenya Commercial Bank - Meru Branch\nAccount Name: Meru University\nAccount Number: 1117775917\nReference Number: Your application no e.g APP_####",
+        "To successfully settle tuition fees, use the following bank details:\nBank: National Bank Of Kenya - Meru Branch\nAccount Name: Meru University\nAccount Number: 01242039008700\nReference Number: Your application no e.g APP_####",
+        "To initiate fee payment without complications, use the following bank details:\nBank: Co-operative Bank - Makutano Branch\nAccount Name: Meru University\nAccount Number: 01129378440000\nReference Number: Your application no e.g APP_####",
+        "For secure tuition fee payment, use the following bank details:\nBank: Equity Bank - Makutano Branch\nAccount Name: Meru University\nAccount Number: 1040297858661\nReference Number: Your application no e.g APP_####",
+        "To securely make fee payments, use the following bank details:\nBank: Kenya Commercial Bank - Meru Branch\nAccount Name: Meru University\nAccount Number: 1117775917\nReference Number: Your application no e.g APP_####",
+        "For a secure tuition fee payment process, use the following bank details:\nBank: National Bank Of Kenya - Meru Branch\nAccount Name: Meru University\nAccount Number: 01242039008700\nReference Number: Your application no e.g APP_####",
+        "To ensure security in fee payment, use the following bank details:\nBank: Co-operative Bank - Makutano Branch\nAccount Name: Meru University\nAccount Number: 01129378440000\nReference Number: Your application no e.g APP_####",
+        "For a straightforward tuition fee payment process, use the following bank details:\nBank: Equity Bank - Makutano Branch\nAccount Name: Meru University\nAccount Number: 1040297858661\nReference Number: Your application no e.g APP_####",
+        "To complete fee payment easily, use the following bank details:\nBank: Kenya Commercial Bank - Meru Branch\nAccount Name: Meru University\nAccount Number: 1117775917\nReference Number: Your application no e.g APP_####",
+        "To successfully settle tuition fees, use the following bank details:\nBank: National Bank Of Kenya - Meru Branch\nAccount Name: Meru University\nAccount Number: 01242039008700\nReference Number: Your application no e.g APP_####",
+        "To initiate fee payment without complications, use the following bank details:\nBank: Co-operative Bank - Makutano Branch\nAccount Name: Meru University\nAccount Number: 01129378440000\nReference Number: Your application no e.g APP_####"
+      ]
+    },
+
+    {
+      "tag": "application_fee_payment",
+      "patterns": [
+        "How much is the application fee?",
+        "Tell me about the application fee for self-sponsored students.",
+        "What is the fee for applying to Meru University?",
+        "Explain the application fee structure for self-sponsored programs.",
+        "Can you provide details on the fee for self-sponsored students?",
+        "What are the application fees for different programs?",
+        "Tell me about the fees for applying to Meru University as a self-sponsored student.",
+        "How do I pay the application fee?",
+        "Give me information on the self-sponsored application fee payment.",
+        "Can you guide me through the process of paying the application fee?",
+        "What are the fees for certificate programs?",
+        "Tell me about the application fees for diploma programs.",
+        "What is the fee for undergraduate program applications?",
+        "Explain the application fee for master's programs.",
+        "How much is the application fee for PhD programs?",
+        "Tell me about the fees for short courses.",
+        "What is the payment process for application fees?",
+        "Explain the application fee structure for self-sponsored students.",
+        "Can you guide me on paying the application fee for Meru University?"
+      ],
+      "responses": [
+        "The application fees for self-sponsored students at Meru University are as follows:\nCertificate: Ksh 500\nDiploma: Ksh 500\nUndergraduate: Ksh 1000\nMasters: Ksh 1500\nPhD: Ksh 2500\nShort Courses: Ksh 500",
+        "For self-sponsored students, the application fees are:\nCertificate: Ksh 500\nDiploma: Ksh 500\nUndergraduate: Ksh 1000\nMasters: Ksh 1500\nPhD: Ksh 2500\nShort Courses: Ksh 500",
+        "To apply as a self-sponsored student, the fees are:\nCertificate: Ksh 500\nDiploma: Ksh 500\nUndergraduate: Ksh 1000\nMasters: Ksh 1500\nPhD: Ksh 2500\nShort Courses: Ksh 500",
+        "For self-sponsored applicants, the application fees are:\nCertificate: Ksh 500\nDiploma: Ksh 500\nUndergraduate: Ksh 1000\nMasters: Ksh 1500\nPhD: Ksh 2500\nShort Courses: Ksh 500",
+        "The application fees for self-sponsored students vary by program:\nCertificate: Ksh 500\nDiploma: Ksh 500\nUndergraduate: Ksh 1000\nMasters: Ksh 1500\nPhD: Ksh 2500\nShort Courses: Ksh 500",
+        "For self-sponsored students, the application fees are:\nCertificate: Ksh 500\nDiploma: Ksh 500\nUndergraduate: Ksh 1000\nMasters: Ksh 1500\nPhD: Ksh 2500\nShort Courses: Ksh 500",
+        "To apply as a self-sponsored student, the fees are:\nCertificate: Ksh 500\nDiploma: Ksh 500\nUndergraduate: Ksh 1000\nMasters: Ksh 1500\nPhD: Ksh 2500\nShort Courses: Ksh 500",
+        "For self-sponsored applicants, the application fees are:\nCertificate: Ksh 500\nDiploma: Ksh 500\nUndergraduate: Ksh 1000\nMasters: Ksh 1500\nPhD: Ksh 2500\nShort Courses: Ksh 500",
+        "The application fees for self-sponsored students vary by program:\nCertificate: Ksh 500\nDiploma: Ksh 500\nUndergraduate: Ksh 1000\nMasters: Ksh 1500\nPhD: Ksh 2500\nShort Courses: Ksh 500",
+        "To apply as a self-sponsored student, the fees are:\nCertificate: Ksh 500\nDiploma: Ksh 500\nUndergraduate: Ksh 1000\nMasters: Ksh 1500\nPhD: Ksh 2500\nShort Courses: Ksh 500",
+        "The fee for certificate program applications is Ksh 500 for self-sponsored students.",
+        "For self-sponsored students, the application fee for diploma programs is Ksh 500.",
+        "The application fee for self-sponsored undergraduate programs is Ksh 1000.",
+        "For self-sponsored master's programs, the application fee is Ksh 1500.",
+        "The application fee for self-sponsored PhD programs is Ksh 2500.",
+        "The fee for short courses applications is Ksh 500 for self-sponsored students.",
+        "To pay the application fee, you can use the following bank details:\nBank: [Bank Name]\nAccount Name: Meru University\nAccount Number: [Account Number]\nReference Number: Your application no e.g APP_####",
+        "The application fees for self-sponsored students are as follows:\nCertificate: Ksh 500\nDiploma: Ksh 500\nUndergraduate: Ksh 1000\nMasters: Ksh 1500\nPhD: Ksh 2500\nShort Courses: Ksh 500",
+        "For self-sponsored students, the application fees are:\nCertificate: Ksh 500\nDiploma: Ksh 500\nUndergraduate: Ksh 1000\nMasters: Ksh 1500\nPhD: Ksh 2500\nShort Courses: Ksh 500",
+        "To apply as a self-sponsored student, the fees are:\nCertificate: Ksh 500\nDiploma: Ksh 500\nUndergraduate: Ksh 1000\nMasters: Ksh 1500\nPhD: Ksh 2500\nShort Courses: Ksh 500"
+      ]
+    },
+
+    {
+      "tag": "self_sponsored_application",
+      "patterns": [
+        "How can I apply as a self-sponsored student?",
+        "What are the steps for self-sponsored student application?",
+        "Guide me through the application process for self-sponsored students.",
+        "Explain the procedure for joining as a self-sponsored student.",
+        "I want to apply as a self-sponsored student, what do I need to do?",
+        "Tell me the steps for self-sponsored student admission.",
+        "How do I become a self-sponsored student at the university?",
+        "What qualifications do I need for self-sponsored student admission?",
+        "Where can I find information on available programs for self-sponsored students?",
+        "How can I check the qualifications for a specific program as a self-sponsored student?",
+        "Where is the 'Apply' button for self-sponsored student application?",
+        "Give me details on the self-sponsored student application form.",
+        "How do I fill in the required information for self-sponsored student application?",
+        "After submitting the application, what's the next step for self-sponsored students?",
+        "What is the application fee for self-sponsored student admission?",
+        "Can you provide the payment details for self-sponsored student application?",
+        "How can I check the status of my self-sponsored student application?",
+        "What should I do if I've already applied as a self-sponsored student?",
+        "I need help with my self-sponsored student application ID and password.",
+        "Tell me about the email I'll receive after submitting my self-sponsored student application.",
+        "What is the deadline for self-sponsored student applications?",
+        "Is there a grace period for late self-sponsored student applications?",
+        "Are there scholarships available for self-sponsored students?",
+        "Can I change my selected program after submitting the self-sponsored student application?",
+        "How can I withdraw my self-sponsored student application?",
+        "Tell me about the interview process for self-sponsored student admissions.",
+        "Are there any entrance exams for self-sponsored student admissions?",
+        "What is the acceptance rate for self-sponsored student applications?",
+        "Can I apply for multiple programs as a self-sponsored student?",
+        "What are the program categories available for self-sponsored students?",
+        "Tell me about the orientation process for self-sponsored students.",
+        "Are there any additional documents required for self-sponsored student applications?",
+        "What is the processing time for self-sponsored student applications?",
+        "How can I appeal a rejection for my self-sponsored student application?",
+        "Tell me about the accommodation options for self-sponsored students.",
+        "What services are available for self-sponsored students with disabilities?",
+        "Can I defer my admission as a self-sponsored student?",
+        "Tell me about the academic support services for self-sponsored students.",
+        "Are there any extracurricular activities for self-sponsored students?",
+        "How can I update my contact information for the self-sponsored student application?",
+        "Tell me about the refund policy for self-sponsored student application fees.",
+        "Is there an age limit for self-sponsored student applicants?",
+        "What is the interview format for self-sponsored student admissions?",
+        "Tell me about the campus facilities available for self-sponsored students.",
+        "Can I apply as a self-sponsored student if I have a gap year?",
+        "What is the procedure for deferring my self-sponsored student admission?",
+        "Tell me about the alumni network for self-sponsored students."
+      ],
+      "responses": [
+        "To apply as a self-sponsored student, follow these steps:\n1. Decide the program you want to undertake and ensure you meet the qualifications.\n2. Click on 'Apply' at the top or bottom of this web page.\n3. Fill in the required information in each step of the application.\n4. Finish the application process and submit your application.\n5. Once submitted successfully, you'll receive an email indicating your application ID.\n6. Pay the indicated application fee (find payment details below).\n7. Keep track of your application status by logging in with the Application ID and Password sent to your email.",
+        "For self-sponsored student admission, here's a step-by-step guide:\n1. Decide on your desired program and check the qualifications in the 'Our Programmes' section.\n2. Click 'Apply' at the top or bottom of this web page.\n3. Fill in the required information in each step of the application.\n4. Complete the application process and submit.\n5. After submission, you'll receive an email with your application ID.\n6. Pay the indicated application fee based on the program.\n7. Track your application status by logging in with your Application ID and Password.",
+        "To join the university as a self-sponsored student, follow these steps:\n1. Decide on the program and ensure you meet qualifications.\n2. Click 'Apply' at the top or bottom of this web page.\n3. Complete the required information in each step of the application.\n4. Finish the application process and submit.\n5. Upon successful submission, an email with your application ID will be sent.\n6. Pay the indicated application fee for the program (see payment details below).\n7. Keep track of your application status by logging in with your Application ID and Password.",
+        "For self-sponsored student admission, here's a step-by-step guide:\n1. Decide on your desired program and check the qualifications in the 'Our Programmes' section.\n2. Click 'Apply' at the top or bottom of this web page.\n3. Fill in the required information in each step of the application.\n4. Complete the application process and submit.\n5. After submission, you'll receive an email with your application ID.\n6. Pay the indicated application fee based on the program.\n7. Track your application status by logging in with your Application ID and Password.",
+        "To apply as a self-sponsored student, follow these steps:\n1. Decide the program you want to undertake and ensure you meet the qualifications.\n2. Click on 'Apply' at the top or bottom of this web page.\n3. Fill in the required information in each step of the application.\n4. Finish the application process and submit your application.\n5. Once submitted successfully, you'll receive an email indicating your application ID.\n6. Pay the indicated application fee (find payment details below).\n7. Keep track of your application status by logging in with the Application ID and Password sent to your email.",
+        "For self-sponsored student admission, here's a step-by-step guide:\n1. Decide on your desired program and check the qualifications in the 'Our Programmes' section.\n2. Click 'Apply' at the top or bottom of this web page.\n3. Fill in the required information in each step of the application.\n4. Complete the application process and submit.\n5. After submission, you'll receive an email with your application ID.\n6. Pay the indicated application fee based on the program.\n7. Track your application status by logging in with your Application ID and Password.",
+        "To join the university as a self-sponsored student, follow these steps:\n1. Decide on the program and ensure you meet qualifications.\n2. Click 'Apply' at the top or bottom of this web page.\n3. Complete the required information in each step of the application.\n4. Finish the application process and submit.\n5. Upon successful submission, an email with your application ID will be sent.\n6. Pay the indicated application fee for the program (see payment details below).\n7. Keep track of your application status by logging in with your Application ID and Password.",
+        "For self-sponsored student admission, here's a step-by-step guide:\n1. Decide on your desired program and check the qualifications in the 'Our Programmes' section.\n2. Click 'Apply' at the top or bottom of this web page.\n3. Fill in the required information in each step of the application.\n4. Complete the application process and submit.\n5. After submission, you'll receive an email with your application ID.\n6. Pay the indicated application fee based on the program.\n7. Track your application status by logging in with your Application ID and Password.",
+        "To apply as a self-sponsored student, follow these steps:\n1. Decide the program you want to undertake and ensure you meet the qualifications.\n2. Click on 'Apply' at the top or bottom of this web page.\n3. Fill in the required information in each step of the application.\n4. Finish the application process and submit your application.\n5. Once submitted successfully, you'll receive an email indicating your application ID.\n6. Pay the indicated application fee (find payment details below).\n7. Keep track of your application status by logging in with the Application ID and Password sent to your email.",
+        "For self-sponsored student admission, here's a step-by-step guide:\n1. Decide on your desired program and check the qualifications in the 'Our Programmes' section.\n2. Click 'Apply' at the top or bottom of this web page.\n3. Fill in the required information in each step of the application.\n4. Complete the application process and submit.\n5. After submission, you'll receive an email with your application ID.\n6. Pay the indicated application fee based on the program.\n7. Track your application status by logging in with your Application ID and Password.",
+        "What is the deadline for self-sponsored student applications?",
+        "Is there a grace period for late self-sponsored student applications?",
+        "Are there scholarships available for self-sponsored students?",
+        "Can I change my selected program after submitting the self-sponsored student application?",
+        "How can I withdraw my self-sponsored student application?",
+        "Tell me about the interview process for self-sponsored student admissions.",
+        "Are there any entrance exams for self-sponsored student admissions?",
+        "What is the acceptance rate for self-sponsored student applications?",
+        "Can I apply for multiple programs as a self-sponsored student?",
+        "What are the program categories available for self-sponsored students?",
+        "Tell me about the orientation process for self-sponsored students.",
+        "Are there any additional documents required for self-sponsored student applications?",
+        "What is the processing time for self-sponsored student applications?",
+        "How can I appeal a rejection for my self-sponsored student application?",
+        "Tell me about the accommodation options for self-sponsored students.",
+        "What services are available for self-sponsored students with disabilities?",
+        "Can I defer my admission as a self-sponsored student?",
+        "Tell me about the academic support services for self-sponsored students.",
+        "Are there any extracurricular activities for self-sponsored students?",
+        "How can I update my contact information for the self-sponsored student application?",
+        "Tell me about the refund policy for self-sponsored student application fees.",
+        "Is there an age limit for self-sponsored student applicants?",
+        "What is the interview format for self-sponsored student admissions?",
+        "Tell me about the campus facilities available for self-sponsored students.",
+        "Can I apply as a self-sponsored student if I have a gap year?",
+        "What is the procedure for deferring my self-sponsored student admission?",
+        "Tell me about the alumni network for self-sponsored students."
+      ]
+    },
+    {
+      "tag": "required_documents",
+      "patterns": [
+        "What documents do I need to attach for program registration?",
+        "Tell me about the required documents for program application.",
+        "What attachments are necessary for applying to Meru University?",
+        "Explain the documents needed for program registration.",
+        "Can you provide details on the required attachments for program application?",
+        "What documents should I attach for program registration?",
+        "Tell me about the necessary attachments for applying to Meru University.",
+        "Which documents are required for program application?",
+        "How do I submit the required documents for program registration?",
+        "Give me information on the documents needed for program application.",
+        "What is the process for submitting required documents?",
+        "Tell me about the documents needed for program registration at Meru University.",
+        "Explain the attachments required for program application.",
+        "Can you guide me on submitting the necessary documents for program registration?",
+        "What is the checklist for required documents during program application?",
+        "Tell me about the documentation process for program registration.",
+        "What are the mandatory documents for program application?",
+        "How can I ensure I have all the necessary documents for program registration?",
+        "Explain the steps for attaching required documents during program application.",
+        "Can you provide a list of documents needed for program registration?",
+        "What documents are mandatory for applying to Meru University?",
+        "Tell me about the procedure for document submission during program registration.",
+        "Explain the document verification process for program application.",
+        "How do I know if my documents are in order for program registration?",
+        "What documents do I need to provide as part of my program application?",
+        "Tell me about the documentation requirements for program registration.",
+        "Can you guide me on the document submission process for program application?",
+        "What attachments are compulsory for applying to Meru University?",
+        "Tell me about the necessary documents for program registration.",
+        "Explain the process of document submission during program application.",
+        "How should I prepare the required documents for program registration?",
+        "What documents are needed for program application as an international student?",
+        "Tell me about the specific documents required for program registration as a Kenyan applicant.",
+        "What is the policy on document submission for program application?",
+        "Explain the criteria for attaching documents during program registration.",
+        "Can you provide details on the documentation process for program application?",
+        "What is the role of the passport photo in the application process?",
+        "Explain the significance of the scanned National ID for Kenyan applicants above 18 years.",
+        "How does the submission of a scanned passport apply to non-Kenyan applicants?",
+        "What is the requirement for a disability certificate during program application?",
+        "Tell me about the role of academic certificates in the application process.",
+        "Explain the necessity of attaching at least 2 academic certificates for program registration.",
+        "How do I ensure the clarity of the passport-sized photo I submit?",
+        "What is the procedure for submitting the scanned National ID for Kenyan applicants?",
+        "How can non-Kenyan applicants submit their scanned passports?",
+        "Tell me about the process of providing a disability certificate during program application.",
+        "Explain the requirements for submitting academic certificates for program registration.",
+        "How can I get my academic certificates verified during the application process?"
+      ],
+      "responses": [
+        "To apply or register for a program at Meru University, you are required to attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "For program registration, you need to attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "The required documents for program application at Meru University include:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "To complete program registration, ensure you attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "The documentation required for program application includes:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "For program registration, you need to attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "The required documents for program application at Meru University include:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "To complete program registration, ensure you attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "For seamless program registration, you need to attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "To complete program registration, ensure you attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "To ensure a smooth program registration process, make sure you attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "The fee for certificate program applications is Ksh 500 for self-sponsored students.",
+        "For self-sponsored students, the application fee for diploma programs is Ksh 500.",
+        "The application fee for self-sponsored undergraduate programs is Ksh 1000.",
+        "For self-sponsored master's programs, the application fee is Ksh 1500.",
+        "The application fee for self-sponsored PhD programs is Ksh 2500.",
+        "The fee for short courses applications is Ksh 500 for self-sponsored students.",
+        "To pay the application fee, you can use the following bank details:\nBank: [Bank Name]\nAccount Name: Meru University\nAccount Number: [Account Number]\nReference Number: Your application no e.g APP_####",
+        "To apply or register for a program at Meru University, you are required to attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "For program registration, you need to attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "The required documents for program application at Meru University include:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "To complete program registration, ensure you attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "The documentation required for program application includes:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "For program registration, you need to attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "The required documents for program application at Meru University include:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "To complete program registration, ensure you attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "For seamless program registration, you need to attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "To complete program registration, ensure you attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "To ensure a smooth program registration process, make sure you attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "The fee for certificate program applications is Ksh 500 for self-sponsored students.",
+        "For self-sponsored students, the application fee for diploma programs is Ksh 500.",
+        "The application fee for self-sponsored undergraduate programs is Ksh 1000.",
+        "For self-sponsored master's programs, the application fee is Ksh 1500.",
+        "The application fee for self-sponsored PhD programs is Ksh 2500.",
+        "The fee for short courses applications is Ksh 500 for self-sponsored students.",
+        "To pay the application fee, you can use the following bank details:\nBank: [Bank Name]\nAccount Name: Meru University\nAccount Number: [Account Number]\nReference Number: Your application no e.g APP_####",
+        "To apply or register for a program at Meru University, you are required to attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "For program registration, you need to attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "The required documents for program application at Meru University include:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "To complete program registration, ensure you attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "The documentation required for program application includes:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "For program registration, you need to attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "The required documents for program application at Meru University include:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "To complete program registration, ensure you attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "For seamless program registration, you need to attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "To complete program registration, ensure you attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
+        "To ensure a smooth program registration process, make sure you attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates."
+      ]
+    },
+    {
+      "tag": "admission_download_kuccps",
+      "patterns": [
+        "How can I download my admission letter for KUCCPS?",
+        "Tell me the steps to download the admission letter for Government Sponsored Students.",
+        "What is the process for downloading the admission letter as a KUCCPS-sponsored student?",
+        "Explain how to access the admission letter for Government Sponsored Students (KUCCPS).",
+        "Can you guide me on downloading my admission letter for KUCCPS?",
+        "What are the steps for Government Sponsored Students to download their admission letters?",
+        "Tell me about the procedure for downloading admission letters for KUCCPS-sponsored students.",
+        "How do I get my admission letter as a Government Sponsored Student from KUCCPS?",
+        "Give me information on the steps to download admission letters for KUCCPS-sponsored students.",
+        "What is the process for KUCCPS-sponsored students to download their admission letters?",
+        "Explain how I can access and download my admission letter as a KUCCPS-sponsored student.",
+        "Tell me about the steps for Government Sponsored Students to download their admission letters.",
+        "How can I accept or reject the programme offered by KUCCPS for admission?",
+        "What is the procedure for accepting or rejecting the programme for Government Sponsored Students?",
+        "Explain the process of accepting or rejecting the offered programme as a KUCCPS-sponsored student.",
+        "How do I accept or reject the programme as a Government Sponsored Student from KUCCPS?",
+        "Tell me about the steps to accept or reject the programme for admission as a KUCCPS-sponsored student.",
+        "What happens if I reject the programme offered by KUCCPS?",
+        "Can you guide me on what to do if I reject the programme offered by KUCCPS?",
+        "Explain the consequences of rejecting the offered programme as a Government Sponsored Student.",
+        "How does rejecting the programme affect my access to other services as a KUCCPS-sponsored student?",
+        "Tell me about the consequences of rejecting the offered programme for Government Sponsored Students.",
+        "What information is required when logging in to download the admission letter for KUCCPS?",
+        "How do I log in to access and download my admission letter as a KUCCPS-sponsored student?",
+        "Tell me about the login process for Government Sponsored Students to download their admission letters.",
+        "Explain the steps for logging in to download the admission letter for KUCCPS-sponsored students.",
+        "What should I do if I forget my login details for downloading the admission letter as a KUCCPS-sponsored student?",
+        "Can you guide me on the login process for Government Sponsored Students to download their admission letters?",
+        "Tell me about the requirements for logging in to download the admission letter for KUCCPS-sponsored students.",
+        "How can I retrieve my login details for downloading the admission letter as a KUCCPS-sponsored student?",
+        "What information is needed to retrieve login details for Government Sponsored Students downloading their admission letters?",
+        "Explain the steps to retrieve login details for downloading the admission letter for KUCCPS-sponsored students.",
+        "How do I download the admission letter as a Government Sponsored Student from KUCCPS?",
+        "Tell me about the steps for Government Sponsored Students to download their admission letters after logging in.",
+        "What information is required to initiate the download of the admission letter for KUCCPS-sponsored students?",
+        "Explain the process of downloading the admission letter for Government Sponsored Students from KUCCPS.",
+        "How can I access other services after accepting the programme as a Government Sponsored Student from KUCCPS?",
+        "Tell me about the services available after accepting the programme for admission as a KUCCPS-sponsored student.",
+        "What steps should I follow to access other services after accepting the programme as a Government Sponsored Student from KUCCPS?",
+        "Explain how I can access additional services after accepting the offered programme as a KUCCPS-sponsored student.",
+        "How do I download other admission documents in addition to the admission letter as a Government Sponsored Student from KUCCPS?",
+        "Tell me about the steps to download additional admission documents for Government Sponsored Students after logging in.",
+        "What are the required steps to download other admission documents along with the admission letter for KUCCPS-sponsored students?",
+        "Explain the process of obtaining other admission documents after downloading the admission letter for Government Sponsored Students from KUCCPS."
+      ],
+      "responses": [
+        "To download your admission letter for Government Sponsored Students (KUCCPS), follow these steps:\n1. Ensure you have received an invitation to our university from KUCCPS.\n2. Click on the 'Log in' button at the bottom of this section.\n3. Enter your KCSE INDEX number in the format 0000000000/2020 and click Login.\n4. On your first login, accept or reject the program you have been offered. Accepting the offer gives you access to other services while rejecting denies you access to any other services.\n5. Enter all the required information then download the admission letter and other admission documents.",
+        "For Government Sponsored Students (KUCCPS), the steps to download the admission letter are as follows:\n1. Ensure you have received an invitation to our university from KUCCPS.\n2. Click on the 'Log in' button at the bottom of this section.\n3. Enter your KCSE INDEX number in the format 0000000000/2020 and click Login.\n4. On your first login, accept or reject the program you have been offered. Accepting the offer gives you access to other services while rejecting denies you access to any other services.\n5. Enter all the required information then download the admission letter and other admission documents.",
+        "To download your admission letter as a Government Sponsored Student (KUCCPS), use the following steps:\n1. Ensure you have received an invitation to our university from KUCCPS.\n2. Click on the 'Log in' button at the bottom of this section.\n3. Enter your KCSE INDEX number in the format 0000000000/2020 and click Login.\n4. On your first login, accept or reject the program you have been offered. Accepting the offer gives you access to other services while rejecting denies you access to any other services.\n5. Enter all the required information then download the admission letter and other admission documents.",
+        "Follow these steps to download your admission letter as a Government Sponsored Student (KUCCPS):\n1. Ensure you have received an invitation to our university from KUCCPS.\n2. Click on the 'Log in' button at the bottom of this section.\n3. Enter your KCSE INDEX number in the format 0000000000/2020 and click Login.\n4. On your first login, accept or reject the program you have been offered. Accepting the offer gives you access to other services while rejecting denies you access to any other services.\n5. Enter all the required information then download the admission letter and other admission documents.",
+        "To access and download your admission letter as a Government Sponsored Student (KUCCPS), follow these steps:\n1. Ensure you have received an invitation to our university from KUCCPS.\n2. Click on the 'Log in' button at the bottom of this section.\n3. Enter your KCSE INDEX number in the format 0000000000/2020 and click Login.\n4. On your first login, accept or reject the program you have been offered. Accepting the offer gives you access to other services while rejecting denies you access to any other services.\n5. Enter all the required information then download the admission letter and other admission documents.",
+        "For Government Sponsored Students (KUCCPS), the steps to download the admission letter are as follows:\n1. Ensure you have received an invitation to our university from KUCCPS.\n2. Click on the 'Log in' button at the bottom of this section.\n3. Enter your KCSE INDEX number in the format 0000000000/2020 and click Login.\n4. On your first login, accept or reject the program you have been offered. Accepting the offer gives you access to other services while rejecting denies you access to any other services.\n5. Enter all the required information then download the admission letter and other admission documents.",
+        "To download your admission letter as a Government Sponsored Student (KUCCPS), use the following steps:\n1. Ensure you have received an invitation to our university from KUCCPS.\n2. Click on the 'Log in' button at the bottom of this section.\n3. Enter your KCSE INDEX number in the format 0000000000/2020 and click Login.\n4. On your first login, accept or reject the program you have been offered. Accepting the offer gives you access to other services while rejecting denies you access to any other services.\n5. Enter all the required information then download the admission letter and other admission documents.",
+        "Follow these steps to download your admission letter as a Government Sponsored Student (KUCCPS):\n1. Ensure you have received an invitation to our university from KUCCPS.\n2. Click on the 'Log in' button at the bottom of this section.\n3. Enter your KCSE INDEX number in the format 0000000000/2020 and click Login.\n4. On your first login, accept or reject the program you have been offered. Accepting the offer gives you access to other services while rejecting denies you access to any other services.\n5. Enter all the required information then download the admission letter and other admission documents.",
+        "To access and download your admission letter as a Government Sponsored Student (KUCCPS), follow these steps:\n1. Ensure you have received an invitation to our university from KUCCPS.\n2. Click on the 'Log in' button at the bottom of this section.\n3. Enter your KCSE INDEX number in the format 0000000000/2020 and click Login.\n4. On your first login, accept or reject the program you have been offered. Accepting the offer gives you access to other services while rejecting denies you access to any other services.\n5. Enter all the required information then download the admission letter and other admission documents.",
+        "For Government Sponsored Students (KUCCPS), the steps to download the admission letter are as follows:\n1. Ensure you have received an invitation to our university from KUCCPS.\n2. Click on the 'Log in' button at the bottom of this section.\n3. Enter your KCSE INDEX number in the format 0000000000/2020 and click Login.\n4. On your first login, accept or reject the program you have been offered. Accepting the offer gives you access to other services while rejecting denies you access to any other services.\n5. Enter all the required information then download the admission letter and other admission documents.",
+        "To download your admission letter as a Government Sponsored Student (KUCCPS), use the following steps:\n1. Ensure you have received an invitation to our university from KUCCPS.\n2. Click on the 'Log in' button at the bottom of this section.\n3. Enter your KCSE INDEX number in the format 0000000000/2020 and click Login.\n4. On your first login, accept or reject the program you have been offered. Accepting the offer gives you access to other services while rejecting denies you access to any other services.\n5. Enter all the required information then download the admission letter and other admission documents.",
+        "Follow these steps to download your admission letter as a Government Sponsored Student (KUCCPS):\n1. Ensure you have received an invitation to our university from KUCCPS.\n2. Click on the 'Log in' button at the bottom of this section.\n3. Enter your KCSE INDEX number in the format 0000000000/2020 and click Login.\n4. On your first login, accept or reject the program you have been offered. Accepting the offer gives you access to other services while rejecting denies you access to any other services.\n5. Enter all the required information then download the admission letter and other admission documents.",
+        "To access and download your admission letter as a Government Sponsored Student (KUCCPS), follow these steps:\n1. Ensure you have received an invitation to our university from KUCCPS.\n2. Click on the 'Log in' button at the bottom of this section.\n3. Enter your KCSE INDEX number in the format 0000000000/2020 and click Login.\n4. On your first login, accept or reject the program you have been offered. Accepting the offer gives you access to other services while rejecting denies you access to any other services.\n5. Enter all the required information then download the admission letter and other admission documents.",
+        "For Government Sponsored Students (KUCCPS), the steps to download the admission letter are as follows:\n1. Ensure you have received an invitation to our university from KUCCPS.\n2. Click on the 'Log in' button at the bottom of this section.\n3. Enter your KCSE INDEX number in the format 0000000000/2020 and click Login.\n4. On your first login, accept or reject the program you have been offered. Accepting the offer gives you access to other services while rejecting denies you access to any other services.\n5. Enter all the required information then download the admission letter and other admission documents.",
+        "To download your admission letter as a Government Sponsored Student (KUCCPS), use the following steps:\n1. Ensure you have received an invitation to our university from KUCCPS.\n2. Click on the 'Log in' button at the bottom of this section.\n3. Enter your KCSE INDEX number in the format 0000000000/2020 and click Login.\n4. On your first login, accept or reject the program you have been offered. Accepting the offer gives you access to other services while rejecting denies you access to any other services.\n5. Enter all the required information then download the admission letter and other admission documents.",
+        "Follow these steps to download your admission letter as a Government Sponsored Student (KUCCPS):\n1. Ensure you have received an invitation to our university from KUCCPS.\n2. Click on the 'Log in' button at the bottom of this section.\n3. Enter your KCSE INDEX number in the format 0000000000/2020 and click Login.\n4. On your first login, accept or reject the program you have been offered. Accepting the offer gives you access to other services while rejecting denies you access to any other services.\n5. Enter all the required information then download the admission letter and other admission documents.",
+        "To access and download your admission letter as a Government Sponsored Student (KUCCPS), follow these steps:\n1. Ensure you have received an invitation to our university from KUCCPS.\n2. Click on the 'Log in' button at the bottom of this section.\n3. Enter your KCSE INDEX number in the format 0000000000/2020 and click Login.\n4. On your first login, accept or reject the program you have been offered. Accepting the offer gives you access to other services while rejecting denies you access to any other services.\n5. Enter all the required information then download the admission letter and other admission documents.",
+        "For Government Sponsored Students (KUCCPS), the steps to download the admission letter are as follows:\n1. Ensure you have received an invitation to our university from KUCCPS.\n2. Click on the 'Log in' button at the bottom of this section.\n3. Enter your KCSE INDEX number in the format 0000000000/2020 and click Login.\n4. On your first login, accept or reject the program you have been offered. Accepting the offer gives you access to other services while rejecting denies you access to any other services.\n5. Enter all the required information then download the admission letter and other admission documents.",
+        "To download your admission letter as a Government Sponsored Student (KUCCPS), use the following steps:\n1. Ensure you have received an invitation to our university from KUCCPS.\n2. Click on the 'Log in' button at the bottom of this section.\n3. Enter your KCSE INDEX number in the format 0000000000/2020 and click Login.\n4. On your first login, accept or reject the program you have been offered. Accepting the offer gives you access to other services while rejecting denies you access to any other services.\n5. Enter all the required information then download the admission letter and other admission documents.",
+        "Follow these steps to download your admission letter as a Government Sponsored Student (KUCCPS):\n1. Ensure you have received an invitation to our university from KUCCPS.\n2. Click on the 'Log in' button at the bottom of this section.\n3. Enter your KCSE INDEX number in the format 0000000000/2020 and click Login.\n4. On your first login, accept or reject the program you have been offered. Accepting the offer gives you access to other services while rejecting denies you access to any other services.\n5. Enter all the required information then download the admission letter and other admission documents.",
+        "To access and download your admission letter as a Government Sponsored Student (KUCCPS), follow these steps:\n1. Ensure you have received an invitation to our university from KUCCPS.\n2. Click on the 'Log in' button at the bottom of this section.\n3. Enter your KCSE INDEX number in the format 0000000000/2020 and click Login.\n4. On your first login, accept or reject the program you have been offered. Accepting the offer gives you access to other services while rejecting denies you access to any other services.\n5. Enter all the required information then download the admission letter and other admission documents."
+      ]
+    },
+    {
+      "tag": "short_course_application",
+      "patterns": [
+        "How do I apply for a short course at Meru University?",
+        "Tell me about the short course application process.",
+        "What are the steps to apply for a short course?",
+        "Explain the procedure for short course application at Meru University.",
+        "Can you guide me on applying for a short course?",
+        "What information is required for a short course application?",
+        "Tell me about the details needed for a short course application.",
+        "What are the steps to fill out a short course application form?",
+        "How can I submit an application for a short course?",
+        "Guide me on the short course enrollment process.",
+        "Where can I find the short course application form?",
+        "What are the requirements for short course admission?",
+        "Explain the short course application form.",
+        "Can you provide details on applying for short courses at Meru University?",
+        "Tell me about the personal details required for a short course application.",
+        "What documents are needed for a short course application?",
+        "How can I upload my academic certificates for a short course application?",
+        "What is the process for submitting a passport photo for a short course application?",
+        "Guide me on providing personal information for a short course application.",
+        "Tell me about the information needed for the course details section in a short course application.",
+        "Explain the campus and course selection for a short course application.",
+        "What is the portal password for short course application?",
+        "How do I set and confirm the portal password for short course enrollment?",
+        "Can you guide me on creating a password for the short course application portal?",
+        "Tell me about the password requirements for the short course application portal.",
+        "What steps do I follow to confirm my password for the short course application portal?",
+        "How do I retrieve a forgotten password for the short course application portal?",
+        "Can you provide information on the password recovery process for the short course application portal?",
+        "Tell me about the confirmation process for the short course application portal password.",
+        "What is the size limit for uploading documents in the short course application?",
+        "How can I ensure that my application documents meet the size requirements for a short course?",
+        "Explain the maximum file size for passport photos in the short course application.",
+        "Can you guide me on compressing files for the short course application?",
+        "Tell me about the options for selecting gender in the short course application.",
+        "What choices are available for nationality selection in the short course application?",
+        "Explain the dropdown options for the physically impaired question in the short course application.",
+        "How do I choose the campus for the short course application?",
+        "What options are available for selecting a course in the short course application?",
+        "Tell me about the steps to confirm the password for the short course application portal.",
+        "What do I do if I encounter issues with the short course application portal password?",
+        "Explain the confirmation process for the short course application portal password.",
+        "How do I edit or update my personal details in the short course application?",
+        "Can you provide information on making changes to the course details in a short course application?",
+        "Tell me about the process of amending details in a submitted short course application.",
+        "What is the deadline for submitting a short course application?",
+        "How long does it take to process a short course application?",
+        "Can you provide information on the short course application timeline?",
+        "Tell me about the communication process after submitting a short course application."
+      ],
+      "responses": [
+        "To apply for a short course at Meru University, follow these steps:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application process involves providing the following information:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to fill out the short course application form. The form includes sections for:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application form requires the following details:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to provide the following information in the application form:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application process involves providing the following information:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to fill out the short course application form. The form includes sections for:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application form requires the following details:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to provide the following information in the application form:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application process involves providing the following information:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to fill out the short course application form. The form includes sections for:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application form requires the following details:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to provide the following information in the application form:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application process involves providing the following information:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to fill out the short course application form. The form includes sections for:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application form requires the following details:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to provide the following information in the application form:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application process involves providing the following information:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to fill out the short course application form. The form includes sections for:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application form requires the following details:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to provide the following information in the application form:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application process involves providing the following information:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to fill out the short course application form. The form includes sections for:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application form requires the following details:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to provide the following information in the application form:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application process involves providing the following information:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to fill out the short course application form. The form includes sections for:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application form requires the following details:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to provide the following information in the application form:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application process involves providing the following information:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to fill out the short course application form. The form includes sections for:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application form requires the following details:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to provide the following information in the application form:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application process involves providing the following information:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to fill out the short course application form. The form includes sections for:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application form requires the following details:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to provide the following information in the application form:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application process involves providing the following information:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to fill out the short course application form. The form includes sections for:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application form requires the following details:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to provide the following information in the application form:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application process involves providing the following information:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to fill out the short course application form. The form includes sections for:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application form requires the following details:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to provide the following information in the application form:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application process involves providing the following information:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to fill out the short course application form. The form includes sections for:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application form requires the following details:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to provide the following information in the application form:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application process involves providing the following information:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to fill out the short course application form. The form includes sections for:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application form requires the following details:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to provide the following information in the application form:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application process involves providing the following information:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to fill out the short course application form. The form includes sections for:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application form requires the following details:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to provide the following information in the application form:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application process involves providing the following information:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to fill out the short course application form. The form includes sections for:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application form requires the following details:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to provide the following information in the application form:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application process involves providing the following information:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to fill out the short course application form. The form includes sections for:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application form requires the following details:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to provide the following information in the application form:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application process involves providing the following information:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to fill out the short course application form. The form includes sections for:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application form requires the following details:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to provide the following information in the application form:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application process involves providing the following information:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to fill out the short course application form. The form includes sections for:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application form requires the following details:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to provide the following information in the application form:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application process involves providing the following information:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to fill out the short course application form. The form includes sections for:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application form requires the following details:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to provide the following information in the application form:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application process involves providing the following information:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to fill out the short course application form. The form includes sections for:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application form requires the following details:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to provide the following information in the application form:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "The short course application process involves providing the following information:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password",
+        "To apply for a short course at Meru University, you need to fill out the short course application form. The form includes sections for:\n\na) Personal Details\n- Surname\n- Other names\n- Gender\n- Date of Birth (dd/mm/yyyy)\n- Nationality\n- Email\n- Phone Number\n- Physically impaired?\n- Academic Certificates (Combined in one document)\n- Passport photo (Maximum size = 2 MB)\n\nb) Course Details\n- Campus\n- Course\n\nc) Portal Password\n- Set Password\n- Confirm Password"
+      ]
+    },
+    {
+      "tag": "agriculture_programs",
+      "patterns": [
+        "What are the programs offered in the School of Agriculture and Food Science?",
+        "Tell me about agriculture-related courses at Meru University.",
+        "Give me information on the School of Agriculture programs."
+      ],
+      "responses": [
+        "The School of Agriculture and Food Science offers a variety of programs, including BSc. Food Science and Nutrition, BSc. Horticulture, MSc. Food Science and Technology, and more."
+      ]
+    },
+
+    {
+      "tag": "business_programs",
+      "patterns": [
+        "What programs are available in the School of Business and Economics?",
+        "Tell me about business-related courses at Meru University.",
+        "Give me information on the School of Business programs."
+      ],
+      "responses": [
+        "The School of Business and Economics offers a diverse range of programs, including Bachelor of Commerce, Master of Business Administration, and PhD. Business Management."
+      ]
+    },
+
+    {
+      "tag": "computing_programs",
+      "patterns": [
+        "What programs does the School of Computing and Informatics have?",
+        "Tell me about computing-related courses at Meru University.",
+        "Give me information on the School of Computing programs."
+      ],
+      "responses": [
+        "The School of Computing and Informatics provides various programs, such as BSc. Computer Science, BSc. Information Technology, and PhD. Computer Science."
+      ]
+    },
+
+    {
+      "tag": "engineering_programs",
+      "patterns": [
+        "Tell me about the programs in the School of Engineering and Architecture.",
+        "What engineering courses are available at Meru University?",
+        "Give me information on the School of Engineering programs."
+      ],
+      "responses": [
+        "The School of Engineering and Architecture offers diverse engineering programs, including BTech. Civil Engineering, BSc. Architectural Studies, and PhD. Sanitation and Waste Management."
+      ]
+    },
+
+    {
+      "tag": "education_programs",
+      "patterns": [
+        "What programs does the School of Education provide?",
+        "Tell me about education-related courses at Meru University.",
+        "Give me information on the School of Education programs."
+      ],
+      "responses": [
+        "The School of Education offers a variety of programs, such as BEd. Arts, Post Graduate Diploma in Education, and PhD. in Education."
+      ]
+    },
+
+    {
+      "tag": "health_sciences_programs",
+      "patterns": [
+        "Tell me about the programs offered in the School of Health Sciences.",
+        "What are the health-related courses at Meru University?",
+        "Give me information on the School of Health Sciences programs."
+      ],
+      "responses": [
+        "The School of Health Sciences offers various programs, including BSc. Public Health, BSc. Clinical Medicine and Community Health, and BSc. Medical Microbiology."
+      ]
+    },
+    {
+      "tag": "public_health_program",
+      "patterns": [
+        "What is the curriculum for BSc. Public Health?",
+        "Tell me about the courses in BSc. Public Health.",
+        "Give me details on the Public Health program at Meru University."
+      ],
+      "responses": [
+        "BSc. Public Health covers a range of subjects including epidemiology, health policy, community health, and environmental health to prepare students for a career in public health."
+      ]
+    },
+    {
+      "tag": "clinical_medicine_program",
+      "patterns": [
+        "Can you provide information on BSc. Clinical Medicine and Community Health?",
+        "Tell me about the Clinical Medicine program at Meru University.",
+        "What are the key components of the Clinical Medicine and Community Health course?"
+      ],
+      "responses": [
+        "BSc. Clinical Medicine and Community Health focus on training medical professionals for community healthcare settings, covering clinical skills and public health aspects."
+      ]
+    },
+
+    {
+      "tag": "nursing_programs",
+      "patterns": [
+        "Tell me about the programs offered in the School of Nursing.",
+        "What are the nursing-related courses at Meru University?",
+        "Give me information on the School of Nursing programs."
+      ],
+      "responses": [
+        "The School of Nursing offers various programs, including BSc. Nursing, BSc. Health Systems Management, BSc. Midwifery, and MSc. Nursing."
+      ]
+    },
+    {
+      "tag": "bsc_nursing_program",
+      "patterns": [
+        "Can you provide details on BSc. Nursing?",
+        "Tell me about the curriculum for BSc. Nursing.",
+        "What are the key components of the BSc. Nursing course?"
+      ],
+      "responses": [
+        "BSc. Nursing covers a comprehensive curriculum including clinical training, healthcare management, and theoretical knowledge to prepare students for a career in nursing."
+      ]
+    },
+    {
+      "tag": "health_systems_management_program",
+      "patterns": [
+        "What is covered in the BSc. Health Systems Management program?",
+        "Tell me about the courses in Health Systems Management.",
+        "Give me details on the Health Systems Management program at Meru University."
+      ],
+      "responses": [
+        "BSc. Health Systems Management focuses on the management aspects of healthcare systems, including organizational structure, policy development, and healthcare administration."
+      ]
+    },
+
+    {
+      "tag": "pure_and_applied_sciences_programs",
+      "patterns": [
+        "Tell me about the programs offered in the School of Pure and Applied Sciences.",
+        "What are the science-related courses at Meru University?",
+        "Give me information on the School of Pure and Applied Sciences programs."
+      ],
+      "responses": [
+        "The School of Pure and Applied Sciences offers various programs, including Bachelor of Science in Physics, Bachelor of Science in Chemistry, and BSc. Mathematics and Computer Science."
+      ]
+    },
+    {
+      "tag": "physics_program",
+      "patterns": [
+        "Can you provide details on Bachelor of Science (Physics)?",
+        "Tell me about the curriculum for Physics.",
+        "What are the key components of the Physics course?"
+      ],
+      "responses": [
+        "The Bachelor of Science (Physics) program covers a wide range of physics topics, including classical mechanics, electromagnetism, quantum mechanics, and applied physics."
+      ]
+    },
+    {
+      "tag": "biotechnology_program",
+      "patterns": [
+        "What is covered in the Bachelor of Science in Biotechnology program?",
+        "Tell me about the courses in Biotechnology.",
+        "Give me details on the Biotechnology program at Meru University."
+      ],
+      "responses": [
+        "BSc. Biotechnology focuses on the application of biological processes and organisms to develop new technologies and products for various industries."
+      ]
+    },
+
+    {
+      "tag": "diploma_programs",
+      "patterns": [
+        "Tell me about the diploma programs at Meru University.",
+        "What diploma courses are available?",
+        "Give me information on the diploma programs."
+      ],
+      "responses": [
+        "Meru University offers a variety of diploma programs, including Diploma in Electrical Engineering, Diploma in Mechatronic Technology, and Diploma in Automotive Engineering."
+      ]
+    },
+    {
+      "tag": "electrical_engineering_diploma",
+      "patterns": [
+        "Can you provide details on Diploma in Electrical Engineering?",
+        "Tell me about the curriculum for Electrical Engineering Diploma.",
+        "What are the key components of the Electrical Engineering Diploma course?"
+      ],
+      "responses": [
+        "Diploma in Electrical Engineering covers fundamental electrical concepts, circuits, and practical skills required in the field of electrical engineering."
+      ]
+    },
+    {
+      "tag": "mechatronic_technology_diploma",
+      "patterns": [
+        "What is covered in Diploma in Mechatronic Technology?",
+        "Tell me about the courses in Mechatronic Technology Diploma.",
+        "Give me details on the Mechatronic Technology Diploma at Meru University."
+      ],
+      "responses": [
+        "Diploma in Mechatronic Technology integrates mechanical, electrical, and computer engineering to design and create intelligent systems and products."
+      ]
+    },
+
+    {
+      "tag": "automotive_engineering_diploma",
+      "patterns": [
+        "Tell me about Diploma in Automotive Engineering.",
+        "What are the subjects covered in Automotive Engineering Diploma?",
+        "Give me information on the Automotive Engineering Diploma at Meru University."
+      ],
+      "responses": [
+        "Diploma in Automotive Engineering focuses on vehicle design, maintenance, and repair, covering topics like automotive technology and mechanics."
+      ]
+    },
+    {
+      "tag": "mechanical_production_technician_diploma",
+      "patterns": [
+        "Can you provide details on Diploma in Mechanical Production Technician?",
+        "Tell me about the curriculum for Mechanical Production Technician Diploma.",
+        "What are the key components of the Mechanical Production Technician Diploma course?"
+      ],
+      "responses": [
+        "Diploma in Mechanical Production Technician covers manufacturing processes, machine operations, and production techniques for the mechanical industry."
+      ]
+    },
+    {
+      "tag": "building_technician_diploma",
+      "patterns": [
+        "What is covered in Diploma in Building Technician?",
+        "Tell me about the courses in Building Technician Diploma.",
+        "Give me details on the Building Technician Diploma at Meru University."
+      ],
+      "responses": [
+        "Diploma in Building Technician focuses on construction technology, building design, and project management in the field of construction and architecture."
+      ]
+    },
+
+    {
+      "tag": "construction_management_diploma",
+      "patterns": [
+        "Tell me about Diploma in Construction Management.",
+        "What are the subjects covered in Construction Management Diploma?",
+        "Give me information on the Construction Management Diploma at Meru University."
+      ],
+      "responses": [
+        "Diploma in Construction Management focuses on project planning, budgeting, and effective management of construction projects."
+      ]
+    },
+    {
+      "tag": "business_management_diploma",
+      "patterns": [
+        "Can you provide details on Diploma in Business Management?",
+        "Tell me about the curriculum for Business Management Diploma.",
+        "What are the key components of the Business Management Diploma course?"
+      ],
+      "responses": [
+        "Diploma in Business Management covers essential business principles, management practices, and organizational skills required in the business sector."
+      ]
+    },
+    {
+      "tag": "supply_chain_management_diploma",
+      "patterns": [
+        "What is covered in Diploma in Supply Chain Management?",
+        "Tell me about the courses in Supply Chain Management Diploma.",
+        "Give me details on the Supply Chain Management Diploma at Meru University."
+      ],
+      "responses": [
+        "Diploma in Supply Chain Management focuses on logistics, procurement, and supply chain operations to ensure efficient business processes."
+      ]
+    },
+
+    {
+      "tag": "project_management_diploma",
+      "patterns": [
+        "Tell me about Diploma in Project Management.",
+        "What are the subjects covered in Project Management Diploma?",
+        "Give me information on the Project Management Diploma at Meru University."
+      ],
+      "responses": [
+        "Diploma in Project Management covers project planning, execution, and monitoring, emphasizing the skills required for successful project implementation."
+      ]
+    },
+    {
+      "tag": "human_resource_management_diploma",
+      "patterns": [
+        "Can you provide details on Diploma in Human Resource Management?",
+        "Tell me about the curriculum for Human Resource Management Diploma.",
+        "What are the key components of the Human Resource Management Diploma course?"
+      ],
+      "responses": [
+        "Diploma in Human Resource Management focuses on personnel management, employee relations, and organizational development in the field of HR."
+      ]
+    },
+    {
+      "tag": "marketing_diploma",
+      "patterns": [
+        "What is covered in Diploma in Marketing?",
+        "Tell me about the courses in Marketing Diploma.",
+        "Give me details on the Marketing Diploma at Meru University."
+      ],
+      "responses": [
+        "Diploma in Marketing covers marketing strategies, consumer behavior, and advertising to prepare students for careers in the marketing and sales industry."
+      ]
+    },
+
+    {
+      "tag": "postgraduate_programs_info",
+      "patterns": [
+        "Tell me more about the postgraduate programs at the School of Computing and Informatics.",
+        "Can you provide details about the postgraduate programs offered?",
+        "What postgraduate degrees are available in the School?"
+      ],
+      "responses": [
+        "The School of Computing and Informatics offers market-driven and research-oriented postgraduate programs at both the master's and doctoral levels. In collaboration with the Directorate of Postgraduate Studies, the School coordinates graduate programs, provides teaching, and supervises students."
+      ]
+    },
+    {
+      "tag": "admission_process_info",
+      "patterns": [
+        "How is the admission process conducted for postgraduate degree programs?",
+        "Tell me about the procedure for applying to postgraduate programs.",
+        "What are the steps for admission to postgraduate programs?"
+      ],
+      "responses": [
+        "Admission for postgraduate degree programs is conducted throughout the year for January, May, and September intakes. Applications are submitted online through the Online Application System: [https://admission.must.ac.ke/](https://admission.must.ac.ke/)"
+      ]
+    },
+    {
+      "tag": "phd_admission_criteria_info",
+      "patterns": [
+        "What are the admission criteria for the Doctor of Philosophy (PhD) degree?",
+        "Can you elaborate on the requirements for enrolling in the PhD program?",
+        "Tell me more about the qualifications needed for admission to the PhD program."
+      ],
+      "responses": [
+        "For the Doctor of Philosophy (PhD) degree, applicants should have a Master's degree from Meru University of Science and Technology or an equivalent qualification from recognized institutions. Additionally, prospective students must submit a research concept note to demonstrate their capability for independent research."
+      ]
+    },
+    {
+      "tag": "masters_admission_criteria_info",
+      "patterns": [
+        "What are the admission criteria for Master's degree programs?",
+        "Can you provide more details on the requirements for enrolling in Master's programs?",
+        "Tell me about the qualifications needed for admission to Master's programs."
+      ],
+      "responses": [
+        "Prospective students for master's degree programs should have a related Bachelor's degree with at least Upper Division Second Class Honors or an equivalent qualification from a recognized institution. Those with Lower Division Second Class Honors must have a minimum of two years of relevant experience or an equivalent qualification from another institution recognized by the University Senate."
+      ]
+    },
+    {
+      "tag": "offered_programs_info",
+      "patterns": [
+        "Which postgraduate programs are offered in Computing and Informatics?",
+        "Tell me more about the specific postgraduate degrees available in the School.",
+        "Can you list the postgraduate programs offered by the School?"
+      ],
+      "responses": [
+        "The School offers the following postgraduate programs: PhD in Computer Science, Master of Science in Computer Science, Master of Science in Data Science, and Master of Science in Information Technology."
+      ]
+    },
+
+    {
+      "tag": "phd_computer_science_tuition",
+      "patterns": [
+        "What is the tuition fee per semester for the PhD in Computer Science program?",
+        "Can you provide information about the cost of tuition for the PhD in Computer Science?",
+        "Tell me about the fees associated with the PhD in Computer Science program."
+      ],
+      "responses": [
+        "The tuition fees for the PhD in Computer Science program are Ksh. 105,000 per semester."
+      ]
+    },
+    {
+      "tag": "phd_computer_science_delivery_modes",
+      "patterns": [
+        "In what modes can I study the PhD in Computer Science program?",
+        "Tell me about the different study modes available for the PhD in Computer Science.",
+        "Can I choose between full-time and weekend modes for the PhD in Computer Science?"
+      ],
+      "responses": [
+        "The PhD in Computer Science program offers both Fulltime and Weekend modes of study."
+      ]
+    },
+    {
+      "tag": "phd_computer_science_research_component",
+      "patterns": [
+        "How is the research component evaluated in the PhD in Computer Science program?",
+        "Tell me about the assessment process for the research component in the PhD in Computer Science.",
+        "What is involved in the evaluation of the research component for the PhD in Computer Science?"
+      ],
+      "responses": [
+        "The research component in the PhD in Computer Science program is evaluated through a written PhD thesis and an oral defense. Candidates must meet specific conditions, including proof of presentation in three seminars and the publication or acceptance for publication of at least two refereed journal papers."
+      ]
+    },
+    {
+      "tag": "phd_computer_science_specialization",
+      "patterns": [
+        "Can you elaborate on the candidate’s specialization area in the PhD in Computer Science?",
+        "Tell me more about the specialization aspect of the PhD in Computer Science program.",
+        "What does it mean to specialize in the PhD in Computer Science program?"
+      ],
+      "responses": [
+        "In the PhD in Computer Science program, candidates are required to demonstrate in-depth knowledge of the most advanced research in their chosen specialization area within Computer Science."
+      ]
+    },
+    {
+      "tag": "phd_computer_science_ethical_conduct",
+      "patterns": [
+        "How does the PhD in Computer Science program ensure ethical and scientific research conduct?",
+        "Tell me about the ethical standards in the PhD in Computer Science research.",
+        "What measures are in place to ensure scientific soundness in the PhD in Computer Science research?"
+      ],
+      "responses": [
+        "The PhD in Computer Science program emphasizes ethical and scientifically sound research conduct to ensure the integrity and quality of the research undertaken by candidates."
+      ]
+    },
+    {
+      "tag": "phd_computer_science_semester_duration",
+      "patterns": [
+        "How long is each semester in the PhD in Computer Science program?",
+        "Tell me about the duration of a semester in the PhD in Computer Science.",
+        "What is the timeframe for each semester in the PhD in Computer Science program?"
+      ],
+      "responses": [
+        "Each semester in the PhD in Computer Science program has a standard duration, but the overall program takes a minimum of 6 semesters for full-time students and a maximum of 12 semesters for part-time students."
+      ]
+    },
+
+    {
+      "tag": "master_computer_science_admission_requirements",
+      "patterns": [
+        "What are the admission requirements for the Master in Computer Science program?",
+        "Can you provide information about the admission criteria for the Master in Computer Science?",
+        "Tell me about the qualifications needed to apply for the Master in Computer Science program."
+      ],
+      "responses": [
+        "To be eligible for the Master in Computer Science program, candidates should have a Bachelor’s degree with at least Second Class Honours (Upper Division) in relevant courses such as BSc. Computer Science, BSc. Information Technology, BSc. Computer Technology, BSc. Computer Security and Forensics, Bachelor of Business Information Technology, BSc. Mathematics and Computer Science, or equivalent qualifications recognized by MUST Senate. Alternatively, candidates with a Bachelor’s degree with Second Class Honours (Lower Division) in the mentioned courses or equivalent qualifications may apply. Candidates are also expected to provide evidence of either three (3) years of research experience or five (5) years of relevant post-qualification work experience in a related field."
+      ]
+    },
+    {
+      "tag": "master_computer_science_program_description",
+      "patterns": [
+        "Tell me about the Master in Computer Science program.",
+        "Can you provide an overview of the Master in Computer Science curriculum?",
+        "What is the structure of the Master in Computer Science program?"
+      ],
+      "responses": [
+        "The Master in Computer Science program has a minimum duration of 4 semesters and a maximum of 8 semesters. The coursework includes seven (7) compulsory courses and three (3) elective courses. Additionally, candidates must present at least one seminar and have a publication or acceptance for publication of at least one refereed journal paper. The research component involves a written Master’s thesis and an oral defense."
+      ]
+    },
+    {
+      "tag": "master_computer_science_learning_objectives",
+      "patterns": [
+        "What are the learning objectives of the Master in Computer Science program?",
+        "Can you highlight the goals of the Master in Computer Science program?",
+        "Tell me about the expected outcomes of the Master in Computer Science program."
+      ],
+      "responses": [
+        "The Master in Computer Science program aims to equip students with the ability to analyze computer science algorithms for large-scale data analysis, apply computer science knowledge for business intelligence, data analytics, and computing research. Additionally, students will learn to evaluate operational, organization, and computer systems data needs, conduct ethically and scientifically sound research in the chosen specialization domain of Computer Science, disseminate research findings, and extend computer science knowledge that advances the theory and practices of computing fields."
+      ]
+    },
+    {
+      "tag": "master_computer_science_career_directions",
+      "patterns": [
+        "What career directions are expected for graduates of the Master in Computer Science program?",
+        "Tell me about the potential career paths for Master in Computer Science graduates.",
+        "What job opportunities are available for those with a Master in Computer Science degree?"
+      ],
+      "responses": [
+        "Graduates of the Master in Computer Science program can pursue various career directions, including Systems Analyst, Software Engineer, Network Engineer, Computer Security Engineer, Research Scientist, Database Administrator, Network Administrator, Data Analyst, Application Analyst, Web Developer, and IT Consultancy."
+      ]
+    },
+
+    {
+      "tag": "msc_data_science_admission_requirements",
+      "patterns": [
+        "What are the admission requirements for the Master of Science in Data Science program?",
+        "Can you provide information about the admission criteria for the MSc in Data Science?",
+        "Tell me about the qualifications needed to apply for the Master of Science in Data Science program."
+      ],
+      "responses": [
+        "To be eligible for the Master of Science in Data Science program, candidates should have a Bachelor’s degree with at least Second Class Honours (Upper Division) in relevant courses such as BSc. Computer Science, BSc. Information Technology, BSc. Computer Technology, BSc. Computer Security and Forensics, BSc. Mathematics and Computer Science, or equivalent qualifications recognized by MUST Senate. Alternatively, candidates with a Bachelor’s degree with Second Class Honours (Lower Division) in the mentioned courses or equivalent qualifications may apply. Candidates are also expected to provide evidence of either three (3) years of research experience or five (5) years of relevant post-qualification work experience in a related field."
+      ]
+    },
+    {
+      "tag": "msc_data_science_program_description",
+      "patterns": [
+        "Tell me about the Master of Science in Data Science program.",
+        "Can you provide an overview of the MSc in Data Science curriculum?",
+        "What is the structure of the Master of Science in Data Science program?"
+      ],
+      "responses": [
+        "The Master of Science in Data Science program has a duration of 2 years and is offered in full-time/evening mode at both Main Campus (Nchiru) and Meru Town Campus (Hart Towers). The program takes a minimum of 4 semesters and a maximum of 8 semesters. The tuition fees per level are Ksh. 60,000. The coursework includes the analysis of data science algorithms for large-scale data analysis, application of data science knowledge for business intelligence, data analytics, and guiding policy making. Additionally, students will conduct research in Data Science and related areas to extend knowledge that advances the theory and practices of data science."
+      ]
+    },
+    {
+      "tag": "msc_data_science_learning_objectives",
+      "patterns": [
+        "What are the learning objectives of the Master of Science in Data Science program?",
+        "Can you highlight the goals of the MSc in Data Science program?",
+        "Tell me about the expected outcomes of the Master of Science in Data Science program."
+      ],
+      "responses": [
+        "The Master of Science in Data Science program aims to equip students with the ability to analyze data science algorithms for large-scale data analysis, apply data science knowledge for business intelligence, data analytics, and guide policy making. Additionally, students will conduct research in Data Science and related areas to extend knowledge that advances the theory and practices of data science."
+      ]
+    },
+
+    {
+      "tag": "msc_information_technology_admission_requirements",
+      "patterns": [
+        "What are the admission requirements for the Master of Science in Information Technology program?",
+        "Can you provide information about the admission criteria for the MSc in Information Technology?",
+        "Tell me about the qualifications needed to apply for the Master of Science in Information Technology program."
+      ],
+      "responses": [
+        "To be eligible for the Master of Science in Information Technology program, candidates should have a Bachelor’s degree with at least Second Class Honours (Upper Division) in relevant courses such as BSc. Computer Science, BSc. Information Technology, BSc. Computer Technology, BSc. Computer Security and Forensics, BSc. Mathematics and Computer Science, or equivalent qualifications recognized by MUST Senate. Alternatively, candidates with a Bachelor’s degree with Second Class Honours (Lower Division) in the mentioned courses or equivalent qualifications may apply. Candidates are also expected to provide evidence of either three (3) years of research experience or five (5) years of relevant post-qualification work experience in a related field."
+      ]
+    },
+    {
+      "tag": "msc_information_technology_program_description",
+      "patterns": [
+        "Tell me about the Master of Science in Information Technology program.",
+        "Can you provide an overview of the MSc in Information Technology curriculum?",
+        "What is the structure of the Master of Science in Information Technology program?"
+      ],
+      "responses": [
+        "The Master of Science in Information Technology program has a duration of 2 years and is offered in full-time/evening mode at both Main Campus (Nchiru) and Meru Town Campus (Hart Towers). The program takes a minimum of 4 semesters and a maximum of 8 semesters. The tuition fees per level are Ksh. 60,000. To graduate with the Master of Science in Information Technology degree, a candidate must pass all coursework, one seminar, publish at least one journal paper, and pass the Master thesis defense. The program applies research skills to solve problems in Software Engineering, IT projects, Networking, Image Processing, and Data management. It also focuses on applying management and leadership knowledge in IT project management, data management, network design and administration, and software development process management. Additionally, the program covers the application of Data mining techniques to analyze and extract information from vast amounts of available data and digital images."
+      ]
+    },
+    {
+      "tag": "msc_information_technology_learning_objectives",
+      "patterns": [
+        "What are the learning objectives of the Master of Science in Information Technology program?",
+        "Can you highlight the goals of the MSc in Information Technology program?",
+        "Tell me about the expected outcomes of the Master of Science in Information Technology program."
+      ],
+      "responses": [
+        "The Master of Science in Information Technology program aims to equip students with the ability to apply research skills to solve problems in Software Engineering, IT projects, Networking, Image Processing, and Data management. It also focuses on applying management and leadership knowledge and skills in IT project management, data management, network design and administration, and software development process management. Additionally, the program aims to develop the ability to apply Data mining techniques to analyze and extract information from vast amounts of available data and digital images. Graduates of the program can pursue careers as IT Project Managers (in software and networking projects), Researchers in Software Engineering, Networking, and Data science, and Tutorial Fellows/Assistant Lecturers in Higher learning Institutions."
+      ]
+    },
+
+    {
+      "tag": "phd_computer_science_admission_requirements",
+      "patterns": [
+        "What are the admission requirements for the Doctor of Philosophy in Computer Science program?",
+        "Can you provide information about the eligibility criteria for the PhD in Computer Science?",
+        "Tell me about the qualifications needed to apply for the Doctor of Philosophy in Computer Science program."
+      ],
+      "responses": [
+        "To be eligible for the Doctor of Philosophy in Computer Science program, candidates must have a relevant Master’s degree from Meru University of Science and Technology (MUST) or an equivalent qualification from any other institution recognized by MUST Senate."
+      ]
+    },
+    {
+      "tag": "phd_computer_science_program_description",
+      "patterns": [
+        "Tell me about the Doctor of Philosophy in Computer Science program.",
+        "Can you provide an overview of the PhD in Computer Science curriculum?",
+        "What is the structure of the Doctor of Philosophy in Computer Science program?"
+      ],
+      "responses": [
+        "The Doctor of Philosophy in Computer Science program has a duration of 3 years and is offered in both full-time and weekend modes at Meru Town Campus (Hart Towers). The tuition fees per semester are Ksh. 105,000. The coursework includes six (6) compulsory courses and two (2) elective courses, covering a total of 360 instruction hours as outlined in the course distribution. Additionally, candidates must show proof of presentation in three seminars and publication/acceptance for publication of at least two refereed journal papers. Once these conditions have been met, the candidate must pass the research component, evaluated through a written PhD thesis and an oral defense. The program takes a minimum of 6 semesters for full-time students and a maximum of 12 semesters for part-time students."
+      ]
+    },
+    {
+      "tag": "phd_computer_science_learning_objectives",
+      "patterns": [
+        "What are the learning objectives of the Doctor of Philosophy in Computer Science program?",
+        "Can you highlight the goals of the PhD in Computer Science program?",
+        "Tell me about the expected outcomes of the Doctor of Philosophy in Computer Science program."
+      ],
+      "responses": [
+        "The learning objectives of the Doctor of Philosophy in Computer Science program include demonstrating in-depth knowledge of the most advanced research in the candidate’s specialization area of Computer Science, exhibiting the ability to select appropriate research methods and techniques suitable for the candidate’s research field, conducting ethically and scientifically sound research in the chosen specialization domain of Computer Science, managing research undertakings that may include aspects not only from the chosen research domain but also from other domains within the discipline of Computer Science, disseminating research findings and computer science knowledge in an academically acceptable manner, and generating new computer science knowledge that advances the theory and practices of computing fields."
+      ]
+    },
+
+    {
+      "tag": "contact_registrar_aa",
+      "patterns": [
+        "How can I reach the Registrar (AA) at MUST?",
+        "Can you provide the contact information for the Registrar (AA)?"
+      ],
+      "responses": [
+        "To contact the Registrar (AA), please send an email to: registraraa@must.ac.ke."
+      ]
+    },
+    {
+      "tag": "social_media_links",
+      "patterns": [
+        "What are the official social media links for Meru University?",
+        "Social media links for Meru University?",
+        "Official Social media links for Meru University?",
+        "Official Social media links?",
+        "Can you share the social media handles for MUST?"
+      ],
+      "responses": [
+        "You can stay connected with Meru University via social media:\nFacebook: [https://web.facebook.com/MeruUniversity/]\nTwitter: [https://twitter.com/MeruUniversity]\nInstagram: [https://www.instagram.com/meru_university/]\nYouTube: [https://www.youtube.com/user/MeruUniversity]"
+      ]
+    },
+    {
+      "tag": "contact_main_office",
+      "patterns": [
+        "How can I contact the main office of MUST?",
+        "What is the email address for the main office at Meru University?"
+      ],
+      "responses": [
+        "For general inquiries, you can contact the main office at:\n\nPhone: +254 799529958, +254 799529959, +254 712524293\nEmail: info@must.ac.ke"
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "What are the contact details for Meru University of Science and Technology?",
+        "Can you provide the contact information for MUST?",
+        "How can I reach out to Meru University?"
+      ],
+      "responses": [
+        "Certainly! For general inquiries, you can contact Meru University of Science and Technology at:\n\nAddress: P.O BOX 972-60200, Meru, Kenya\nPhone: +254 799529958, +254 799529959, +254 712524293\nEmail: info@must.ac.ke"
+      ]
+    },
+    {
+      "tag": "contact_academic_office",
+      "patterns": [
+        "How can I reach the academic office at MUST?",
+        "What is the contact information for academic matters?",
+        "Can you provide the email for academic inquiries?"
+      ],
+      "responses": [
+        "For academic matters, please contact the Academic Office at:\n\nEmail: academicoffice@must.ac.ke"
+      ]
+    },
+    {
+      "tag": "contact_deputy_vc",
+      "patterns": [
+        "How can I contact the Deputy Vice Chancellor (AA) at MUST?",
+        "What is the email for the Deputy Vice Chancellor (AA)?"
+      ],
+      "responses": [
+        "To reach the Deputy Vice Chancellor(AA), please send an email to:dvcars@must.ac.ke."
+      ]
+    },
+    {
+      "tag": "contact_meru_town_campus",
+      "patterns": [
+        "How can I contact the Meru Town Campus of MUST?",
+        "What is the contact information for the Meru Town Campus?",
+        "Can you provide the email for the Meru Town Campus?"
+      ],
+      "responses": [
+        "For inquiries related to the Meru Town Campus, please send an email to: towncampus@must.ac.ke."
+      ]
+    },
+    {
+      "tag": "security_policy",
+      "patterns": [
+        "Tell me about Meru University of Science and Technology's Information Security Policy.",
+        "What is the Information Security Policy at MUST?"
+      ],
+      "responses": [
+        "Meru University of Science and Technology (MUST) is committed to safeguarding its information assets against all threats. The Information Security Policy ensures the confidentiality, integrity, and availability of information, supporting business continuity and preventing security incidents. The policy aligns with ISO/IEC 27001:2013 standards. All MUST employees, customers, and involved parties are responsible for its implementation, backed by top management. Regular reviews are conducted for continuous suitability."
+      ]
+    },
+    {
+      "tag": "vision_mission_values",
+      "patterns": [
+        "What is the vision of Meru University of Science and Technology?",
+        "Tell me about the mission of Meru University of Science and Technology.",
+        "Vision?",
+        "Mission?",
+        "Core values?",
+        "What are the core values of MUST?"
+      ],
+      "responses": [
+        "Vision: A world-class University of excellence in Science and Technology.\n\nMission: To provide quality University education, training, and research in Science, Technology, and innovation.\n\nCore Values: Competitiveness, Integrity, Professionalism, Quality, Innovation."
+      ]
+    },
+    {
+      "tag": "town_campus_info",
+      "patterns": [
+        "Tell me about Meru University Town Campus.",
+        "Where is MUST's Meru Town Campus located?",
+        "Give me information about the Meru Town Campus of Meru University.",
+        "What are the facilities at Meru University's Town Campus?",
+        "Tell me about the programs offered at Meru Town Campus.",
+        "Give me details about the academic offerings at Meru University's Town Campus.",
+        "What are the contact details for Meru Town Campus?",
+        "Can you provide information on the courses offered at the Meru University Town Campus?"
+      ],
+      "responses": [
+        "MUST’s Meru Town Campus is located in Meru Town with the main office at Hart Tower Building, Njuri Ncheke Street (Opposite Meru Police Station).",
+        "Meru University Town Campus is situated in Meru Town, and its main office is located at Hart Tower Building, Njuri Ncheke Street (Opposite Meru Police Station).",
+        "The Town Campus of Meru University is located in Meru Town, and its main office is at Hart Tower Building, Njuri Ncheke Street (Opposite Meru Police Station).",
+        "Meru University's Town Campus, situated in Meru Town, has appreciable facilities for both academic and administrative purposes.",
+        "The facilities at Meru University's Town Campus include 24 spacious lecture halls at Hart Towers, Alexander House, and KCB Building, a library at Hart Tower, a computer laboratory with a capacity of 70 computers, and wireless internet.",
+        "The offices at Meru University's Town Campus include the Director’s Office, Administrator’s Office, Health Service Unit, Student Counselling, Student Finance, and Security.",
+        "Currently, Meru University Town Campus offers programs such as Master of Business Administration, Master of Science in Entrepreneurship, Master of Science in Applied Mathematics, Bachelor of Commerce, and more.",
+        "Meru University Town Campus plans to introduce academic programs like KASNEB Courses (-ATC 1 & 11 and CPA Part I, II & III), Bachelor of Business and Front Office Management, Bachelor of Science in Economics, and Bachelor of Cooperative Management.",
+        "Short courses and trainings offered at Meru University Town Campus include Leadership & Management, Environment Impact Assessment & Audit, Security Management, SPSS for Project Management, Small Enterprise Management, Peace Building, Conflict Management and Resolution, and Corporate Leadership & Governance.",
+        "Meru University Town Campus aims to offer courses that are highly competitive, affordable, and adaptive to changing market needs and trends.",
+        "The contact details for Meru University Town Campus are:\nPhone: +254 719575764\nEmail: towncampus@must.ac.ke"
+      ]
+    },
+    {
+      "tag": "town_campus_contact",
+      "patterns": [
+        "How can I contact Meru University Town Campus?",
+        "What is the phone number for Meru Town Campus?",
+        "Give me the contact details for Meru University's Town Campus.",
+        "I need to reach Meru University Town Campus. What's the contact information?",
+        "Tell me about the email address for Meru Town Campus.",
+        "Can you provide the contact number for Meru University Town Campus?",
+        "I want to inquire about Meru Town Campus. How can I get in touch?"
+      ],
+      "responses": [
+        "You can contact Meru University Town Campus at the following:\nPhone: +254 719575764\nEmail: towncampus@must.ac.ke",
+        "For inquiries, you can reach Meru University Town Campus at:\nPhone: +254 719575764\nEmail: towncampus@must.ac.ke",
+        "The contact details for Meru University Town Campus are as follows:\nPhone: +254 719575764\nEmail: towncampus@must.ac.ke",
+        "If you need to contact Meru University Town Campus, you can use the following information:\nPhone: +254 719575764\nEmail: towncampus@must.ac.ke",
+        "To get in touch with Meru University Town Campus, you can use the following contact information:\nPhone: +254 719575764\nEmail: towncampus@must.ac.ke",
+        "The contact number for Meru University Town Campus is +254 719575764, and you can also reach them via email at towncampus@must.ac.ke",
+        "If you have inquiries about Meru Town Campus, feel free to contact them at:\nPhone: +254 719575764\nEmail: towncampus@must.ac.ke"
+      ]
+    },
+    {
+      "tag": "marimba_learning_centre_info",
+      "patterns": [
+        "Tell me about Marimba Learning Centre.",
+        "What courses are offered at Marimba Learning Centre?",
+        "Give me information about the Diploma programs at Marimba Learning Centre.",
+        "Tell me about the Certificate programs at Marimba Learning Centre.",
+        "When was Marimba Learning Centre opened?",
+        "What are the admission requirements for Diploma in Agriculture at Marimba Learning Centre?",
+        "Can you provide details on the Certificate in Agriculture program at Marimba Learning Centre?",
+        "What is the tuition fee for Diploma in Agriculture per semester at Marimba Learning Centre?",
+        "How long is the Certificate in Agriculture program at Marimba Learning Centre?"
+      ],
+      "responses": [
+        "Marimba Learning Centre is now open for students pursuing Certificate and Diploma courses in Agriculture. It was opened during September – December 2015 Semester.",
+        "At Marimba Learning Centre, Diploma programs in Agriculture are offered with a minimum mean grade of C- (minus) in K.C.S.E. The duration is 3 years, full-time, and the tuition fees per semester are Ksh. 25,000.",
+        "Marimba Learning Centre offers Certificate programs in Agriculture with a minimum mean grade of D+ (plus) in K.C.S.E. The duration is 2 years, full-time, and the tuition fees per semester are Ksh. 18,000.",
+        "Marimba Learning Centre was opened during September – December 2015 Semester, providing education in Agriculture for both Certificate and Diploma courses.",
+        "Diploma in Agriculture at Marimba Learning Centre requires a minimum mean grade of C- (minus) in K.C.S.E. with additional subject requirements. Alternatively, holders of Certificate in Agriculture or its equivalent with certain qualifications are eligible.",
+        "The Certificate in Agriculture program at Marimba Learning Centre has a minimum entry requirement of a mean grade of D+ (plus) in K.C.S.E or a relevant qualification.",
+        "The tuition fee for Diploma in Agriculture per semester at Marimba Learning Centre is Ksh. 25,000.",
+        "The Certificate in Agriculture program at Marimba Learning Centre has a duration of 2 years, and the tuition fees per semester are Ksh. 18,000."
+      ]
+    },
+    {
+      "tag": "marimba_learning_centre_welcome",
+      "patterns": [
+        "I am a Certificate student, can I enroll at Marimba Learning Centre?",
+        "Is Marimba Learning Centre open to Diploma students?",
+        "Can Certificate and Diploma students apply to Marimba Learning Centre?",
+        "What is the welcome message for Certificate and Diploma students at Marimba Learning Centre?"
+      ],
+      "responses": [
+        "Certificate and Diploma students, you are welcome to Marimba Learning Centre!",
+        "Marimba Learning Centre welcomes Certificate and Diploma students.",
+        "Yes, Certificate and Diploma students can apply and enroll at Marimba Learning Centre.",
+        "To all Certificate and Diploma students, we warmly welcome you to Marimba Learning Centre!"
+      ]
+    },
+  
+    {
+      "tag": "swahili_greeting",
+      "patterns": [
+        "Habari",
+        "Hujambo",
+        "Jambo",
+        "Mambo",
+        "Sasa",
+        "Habari za leo",
+        "Vipi?",
+        "Habari yako?",
+        "Habari gani?",
+        "Habari za jioni",
+        "Habari ya leo?",
+        "Habari za asubuhi",
+        "Habari za kazi?",
+        "Habari za mchana?",
+        "Ukoje?",
+        "Mambo vipi?",
+        "Mambo vipi kazini?",
+        "Habari za wiki?"
+      ],
+      "responses": [
+        "Niko poa",
+        "Salama",
+        "Sijambo",
+        "Nzuri",
+        "Safi kabisa",
+        "Karibu sana",
+        "Hujambo pia",
+        "Poa sana",
+        "Niko vizuri",
+        "Nipo poa tu",
+        "Nzuri sana, asante"
+      ]
+    },
+    {
+      "tag": "swahili_Asante",
+      "patterns": [
+        "Shukran",
+        "Asante sana",
+        "Asante",
+        "Nimeshukuru sana",
+        "Nimeshukuru",
+        "barikiwe"
+      ],
+      "responses": [
+        "Karibu",
+        "Karibu tena",
+        "Nimeshukuru pia sana.",
+        "barikiwe sana",
+        "Nimefurahi kwa ukarimu wako.",
+        "Karibu sana",
+        "Karibu, Naahidi kukusaidia zaidi",
+        "Karibu, natumai umesaidika",
+        "Niko tayari kukusaidia tena",
+        "Nashukuru",
+        "Mola akubariki."
+      ]
+    },
+    {
+      "tag": "Kalenjin_Kongoi",
+      "patterns": [
+        "kongoi Missing",
+        "Kongoi",
+        "Kongoi neo"
+      ],
+      "responses": [
+        "Kongoi",
+        "kongoi missing"
+      ]
+    }
+
+  ]
+}
