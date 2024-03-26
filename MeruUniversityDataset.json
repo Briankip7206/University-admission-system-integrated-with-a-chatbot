@@ -173,18 +173,49 @@
       ]
     },
     {
-        "tag": "academic_programs",
+      "tag": "academic_programs",
+      "patterns": [
+        "What academic programs does the university offer?",
+        "Academic programs?",
+        "Programs?",
+        "List of Programmes offered?",
+        "Which academic programs do you offer?"
+      ],
+      "responses": [
+        "At Meru University, we provide a wide range of academic programs to cater to your educational aspirations:<br>Certificate Programs, Diploma Programs, Undergraduate Programs, Masters Programs, PhD Programs<br>For more detailed information about our programs, please visit our website <a style='color:blue !important' href='https://admission.must.ac.ke/programmes' target='_blank'>here</a>."
+      ]
+    },
+    
+    
+      
+      {
+        "tag": "schools_within_university",
         "patterns": [
-          "What academic programs does the university offer?",
-          "Academic programs?",
-          "Programs?",
-          "List of Programmes offered?",
-          "Which academic programs do you offer?"
+            "What schools are there within the university?",
+            "List of schools within the university?",
+            "Name the schools in the university?",
+            "What are the academic divisions in the university?",
+            "Tell me about the schools in the university."
         ],
         "responses": [
-          "Meru University offers a wide range of Academic programs. You can find more information on our website https://admission.must.ac.ke/programmes."
+            "Meru University comprises several schools offering diverse fields of study. Here are some of the schools:\n\n1. School of Computing and Informatics\n2. School of Health Sciences\n3. School of Engineering and Architecture\n4. School of Agriculture and Food Science\n5. School of Nursing\n6. School of Education\n7. School of Pure and Applied Sciences\n\nEach school specializes in specific areas of education and research to provide comprehensive learning opportunities."
         ]
-      },
+    },
+    {
+      "tag": "major_events",
+      "patterns": [
+          "What major events does the university organize?",
+          "Tell me about the university's major events.",
+          "Are there any significant events at the university?",
+          "List of major events at the university?",
+          "When are the major events at the university?"
+      ],
+      "responses": [
+          "Meru University hosts several major events throughout the academic year, fostering a vibrant campus community. Here are some of the key events:\n\n1. Graduation Ceremony\n2. Freshmen Bash\n3. Cultural Week\n4. Inter-Faculty Sports Competitions\n\nThese events are eagerly anticipated and contribute to the rich cultural and academic life at the university."
+      ]
+  },
+  
+    
       {
         "tag": "contacts",
         "patterns": [
@@ -197,7 +228,7 @@
           "Is there an email address I can reach out to?"
         ],
         "responses": [
-          "You can contact Meru university at P.O BOX 972-60200, Meru:\n Phone:+254799529958 +254799529959 +254712524293:\n Email: info@must.ac.ke,registraraa@must.ac.ke,admissions@must.ac.ke.\n Alternatively, you can visit the university's website for more contact information."
+          "You can contact Meru university at P.O BOX 972-60200, Meru:\n Phone:+254799529958 +254799529959 +254712524293:\n Email: info@must.ac.ke,\n registraraa@must.ac.ke,\nadmissions@must.ac.ke.\n Alternatively, you can visit the university's website for more contact information."
         ]
       },
     {
@@ -209,7 +240,7 @@
         "I want to be your friend"
       ],
       "responses" :[
-        "As an AI I cant have any sort of relation with humans! Sorry!!"
+        "Sorry!! as an AI I cant have any sort of relation with humans!"
       ]
 
     },
@@ -616,34 +647,7 @@
         "To join the university as a self-sponsored student, follow these steps:\n1. Decide on the program and ensure you meet qualifications.\n2. Click 'Apply' at the top or bottom of this web page.\n3. Complete the required information in each step of the application.\n4. Finish the application process and submit.\n5. Upon successful submission, an email with your application ID will be sent.\n6. Pay the indicated application fee for the program (see payment details below).\n7. Keep track of your application status by logging in with your Application ID and Password.",
         "For self-sponsored student admission, here's a step-by-step guide:\n1. Decide on your desired program and check the qualifications in the 'Our Programmes' section.\n2. Click 'Apply' at the top or bottom of this web page.\n3. Fill in the required information in each step of the application.\n4. Complete the application process and submit.\n5. After submission, you'll receive an email with your application ID.\n6. Pay the indicated application fee based on the program.\n7. Track your application status by logging in with your Application ID and Password.",
         "To apply as a self-sponsored student, follow these steps:\n1. Decide the program you want to undertake and ensure you meet the qualifications.\n2. Click on 'Apply' at the top or bottom of this web page.\n3. Fill in the required information in each step of the application.\n4. Finish the application process and submit your application.\n5. Once submitted successfully, you'll receive an email indicating your application ID.\n6. Pay the indicated application fee (find payment details below).\n7. Keep track of your application status by logging in with the Application ID and Password sent to your email.",
-        "For self-sponsored student admission, here's a step-by-step guide:\n1. Decide on your desired program and check the qualifications in the 'Our Programmes' section.\n2. Click 'Apply' at the top or bottom of this web page.\n3. Fill in the required information in each step of the application.\n4. Complete the application process and submit.\n5. After submission, you'll receive an email with your application ID.\n6. Pay the indicated application fee based on the program.\n7. Track your application status by logging in with your Application ID and Password.",
-        "What is the deadline for self-sponsored student applications?",
-        "Is there a grace period for late self-sponsored student applications?",
-        "Are there scholarships available for self-sponsored students?",
-        "Can I change my selected program after submitting the self-sponsored student application?",
-        "How can I withdraw my self-sponsored student application?",
-        "Tell me about the interview process for self-sponsored student admissions.",
-        "Are there any entrance exams for self-sponsored student admissions?",
-        "What is the acceptance rate for self-sponsored student applications?",
-        "Can I apply for multiple programs as a self-sponsored student?",
-        "What are the program categories available for self-sponsored students?",
-        "Tell me about the orientation process for self-sponsored students.",
-        "Are there any additional documents required for self-sponsored student applications?",
-        "What is the processing time for self-sponsored student applications?",
-        "How can I appeal a rejection for my self-sponsored student application?",
-        "Tell me about the accommodation options for self-sponsored students.",
-        "What services are available for self-sponsored students with disabilities?",
-        "Can I defer my admission as a self-sponsored student?",
-        "Tell me about the academic support services for self-sponsored students.",
-        "Are there any extracurricular activities for self-sponsored students?",
-        "How can I update my contact information for the self-sponsored student application?",
-        "Tell me about the refund policy for self-sponsored student application fees.",
-        "Is there an age limit for self-sponsored student applicants?",
-        "What is the interview format for self-sponsored student admissions?",
-        "Tell me about the campus facilities available for self-sponsored students.",
-        "Can I apply as a self-sponsored student if I have a gap year?",
-        "What is the procedure for deferring my self-sponsored student admission?",
-        "Tell me about the alumni network for self-sponsored students."
+        "For self-sponsored student admission, here's a step-by-step guide:\n1. Decide on your desired program and check the qualifications in the 'Our Programmes' section.\n2. Click 'Apply' at the top or bottom of this web page.\n3. Fill in the required information in each step of the application.\n4. Complete the application process and submit.\n5. After submission, you'll receive an email with your application ID.\n6. Pay the indicated application fee based on the program.\n7. Track your application status by logging in with your Application ID and Password."
       ]
     },
     {
@@ -710,13 +714,6 @@
         "For seamless program registration, you need to attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
         "To complete program registration, ensure you attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
         "To ensure a smooth program registration process, make sure you attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
-        "The fee for certificate program applications is Ksh 500 for self-sponsored students.",
-        "For self-sponsored students, the application fee for diploma programs is Ksh 500.",
-        "The application fee for self-sponsored undergraduate programs is Ksh 1000.",
-        "For self-sponsored master's programs, the application fee is Ksh 1500.",
-        "The application fee for self-sponsored PhD programs is Ksh 2500.",
-        "The fee for short courses applications is Ksh 500 for self-sponsored students.",
-        "To pay the application fee, you can use the following bank details:\nBank: [Bank Name]\nAccount Name: Meru University\nAccount Number: [Account Number]\nReference Number: Your application no e.g APP_####",
         "To apply or register for a program at Meru University, you are required to attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
         "For program registration, you need to attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
         "The required documents for program application at Meru University include:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
@@ -728,13 +725,6 @@
         "For seamless program registration, you need to attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
         "To complete program registration, ensure you attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
         "To ensure a smooth program registration process, make sure you attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
-        "The fee for certificate program applications is Ksh 500 for self-sponsored students.",
-        "For self-sponsored students, the application fee for diploma programs is Ksh 500.",
-        "The application fee for self-sponsored undergraduate programs is Ksh 1000.",
-        "For self-sponsored master's programs, the application fee is Ksh 1500.",
-        "The application fee for self-sponsored PhD programs is Ksh 2500.",
-        "The fee for short courses applications is Ksh 500 for self-sponsored students.",
-        "To pay the application fee, you can use the following bank details:\nBank: [Bank Name]\nAccount Name: Meru University\nAccount Number: [Account Number]\nReference Number: Your application no e.g APP_####",
         "To apply or register for a program at Meru University, you are required to attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
         "For program registration, you need to attach the following documents:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
         "The required documents for program application at Meru University include:\n1. Passport photo - a clear passport-sized photo\n2. Scanned National ID - Applies to only Kenyan applicants who are above 18 years of age\n3. Scanned Passport - Applies to Non-Kenyan applicants\n4. Disability certificate - Applies to only those who have some disability\n5. Academic certificates - At least 2 academic certificates are required. Example KCPE & KCSE certificates.",
@@ -1741,8 +1731,6 @@
         "Sijambo",
         "Nzuri",
         "Safi kabisa",
-        "Karibu sana",
-        "Hujambo pia",
         "Poa sana",
         "Niko vizuri",
         "Nipo poa tu",
@@ -1756,15 +1744,12 @@
         "Asante sana",
         "Asante",
         "Nimeshukuru sana",
-        "Nimeshukuru",
-        "barikiwe"
+        "Nimeshukuru"
       ],
       "responses": [
         "Karibu",
         "Karibu tena",
         "Nimeshukuru pia sana.",
-        "barikiwe sana",
-        "Nimefurahi kwa ukarimu wako.",
         "Karibu sana",
         "Karibu, Naahidi kukusaidia zaidi",
         "Karibu, natumai umesaidika",
@@ -1772,18 +1757,7 @@
         "Nashukuru",
         "Mola akubariki."
       ]
-    },
-    {
-      "tag": "Kalenjin_Kongoi",
-      "patterns": [
-        "kongoi Missing",
-        "Kongoi",
-        "Kongoi neo"
-      ],
-      "responses": [
-        "Kongoi",
-        "kongoi missing"
-      ]
+    }
     }
 
   ]
